@@ -37,6 +37,9 @@
      <input type = "checkbox" value =checked>Recource Gathering</input>
    <input type = "checkbox" value =checked> Front Page Development</input>
     <input type = "checkbox" value =checked> Setting up the repo for the group</input>
+    </form>
+    </body>
+    </html>
   
   
   
