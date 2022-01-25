@@ -16,7 +16,7 @@
 </details>
 
 
-** About The Project
+## About The Project
 Creating a website for reach their targets with the help of sustainability concept
 
 <p align="right">(<a href="#top">back to top</a>)</p>
