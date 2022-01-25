@@ -28,18 +28,14 @@
   
   <p align = "right">(<a href="#top" >back to top</a>)</p>
  
-  <html>
-  <body>
-    <form>
-       ## Roadmap<br>
+  
+   ## Roadmap
       
-  <input type = "checkbox" value =checked> Setting up the repo for the group</input>
-     <input type = "checkbox" value =checked>Recource Gathering</input>
-   <input type = "checkbox" value =checked> Front Page Development</input>
-    <input type = "checkbox" value =checked> Setting up the repo for the group</input>
-    </form>
-    </body>
-    </html>
+  - [] Setting up the repo for the group
+  - [] Recource Gathering
+  - [] Front Page Development
+  - []Setting up the repo for the group
+   
   
   
   
