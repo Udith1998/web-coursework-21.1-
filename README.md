@@ -27,8 +27,7 @@
  
   
   <p align = "right">(<a href="#top" >back to top</a>)</p>
- 
-   ## Roadmap
+  ## Roadmap
       
   - [ ] Setting up the repo for the group
   - [ ] Recource Gathering
