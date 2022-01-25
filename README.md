@@ -13,7 +13,7 @@
   </details>
   ## About the project
    
-   creatinng  a website using sustainability goals to reach the expected outcomes
+  <p> creatinng  a website using sustainability goals to reach the expected outcomes</p>
   
   ## Build with
   <ol>
@@ -26,6 +26,6 @@
   
  
   
-  <p align = "right">(<
+  <p align = "right">(<a href="#top" 
   
     
