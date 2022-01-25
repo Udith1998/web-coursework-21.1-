@@ -31,7 +31,7 @@
   
    ## Roadmap
       
-  - [ ] Setting up the repo for the group
+  - [x ] Setting up the repo for the group
   - [ ] Recource Gathering
   - [ ] Front Page Development
   - [ ] sub page Development
