@@ -31,11 +31,11 @@
   
    ## Roadmap
       
-  - [x ] Setting up the repo for the group
+  - [ ] Setting up the repo for the group
   - [ ] Recource Gathering
   - [ ] Front Page Development
   - [ ] sub page Development
-   
+   <p align="right">(<a href="#top">back to top</a></p>
   
   
   
