@@ -16,12 +16,15 @@
    creatinng  a website using sustainability goals to reach the expected outcomes
   
   ## Build with
+  <ol>
+  <li>Html</li>
+  <li>CSS</li>
+  <li>Java Script</li>
+  <li>PHP</li>
+  <My Sql</li>
+  </ol>
   
-  *Html
-  *Java script
-  *Css
-  *PHP
-  *My Sql
+ 
   
   <p align = "right">(<
   
