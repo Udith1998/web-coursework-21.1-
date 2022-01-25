@@ -34,7 +34,7 @@
   - [ ] Setting up the repo for the group
   - [ ] Recource Gathering
   - [ ] Front Page Development
-  - [ ]Setting up the repo for the group
+  - [ ] sub page Development
    
   
   
