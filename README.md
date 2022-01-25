@@ -18,13 +18,9 @@
   ## Build with
   
   *Html
-  
   *Java script
- 
- *Css
-  
+  *Css
   *PHP
-  
   *My Sql
   
   <p align = "right">(<
