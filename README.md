@@ -25,8 +25,7 @@
   </ol>
   
  
-  
-  <p align = "right">(<a href="#top" >back to top</a>)</p>
+   <p align = "right">(<a href="#top" >back to top</a>)</p>
   ## Roadmap
       
   - [ ] Setting up the repo for the group
