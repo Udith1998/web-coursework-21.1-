@@ -31,10 +31,10 @@
   
    ## Roadmap
       
-  - [] Setting up the repo for the group
-  - [] Recource Gathering
-  - [] Front Page Development
-  - []Setting up the repo for the group
+  - [ ] Setting up the repo for the group
+  - [ ] Recource Gathering
+  - [ ] Front Page Development
+  - [ ]Setting up the repo for the group
    
   
   
