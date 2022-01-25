@@ -28,6 +28,7 @@
   
   <p align = "right">(<a href="#top" >back to top</a>)</p>
   ## Roadmap
+  <input type = "checkbox" value =checked> Setting up the repo for the group</input>
   
   
   
