@@ -1,39 +1,49 @@
-# web-coursework-21.1-
-<div id = "top"></div>
-<h1 align = "center">Web-Coursework-21.1</h1>
-<p align = "center">blueprint to achieve a better and more sustainable future for all</p>
-<detils>
-  <summary>Table of content</summary>
+<div id="top"></div>
+<h1 align="center">Web-Coursework-21.1</h1>
+<p align="center"> </p>
+<details>
+  <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#build with">build with</a></li>
-    <li><a href="#roadmap">roadmap</a></li>
-     <li><a href="#contact">contact</a></li>
-     <li><a href="#acknowledgements">acknowledgement</a></li>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-  </details>
-  ## About the project
-   
-  <p> creatinng  a website using sustainability goals to reach the expected outcomes</p>
-  
-  ## Build with
-  <ol>
-  <li>Html</li>
-  <li>CSS</li>
-  <li>Java Script</li>
-  <li>PHP</li>
-  <My Sql</li>
-  </ol>
-  
- 
-   <p align = "right">(<a href="#top" >back to top</a>)</p>
-  ## Roadmap
-      
-  - [ ] Setting up the repo for the group
-  - [ ] Recource Gathering
-  - [ ] Front Page Development
-  - [ ] sub page Development
-   <p align="right">(<a href="#top">back to top</a></p>
-  
+</details>
+
+
+## About The Project
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Built With
+* HTML
+* CSS
+* JavaScript
+* PHP
+* My sql
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Roadmap
+- [x] Setting Up the repo for the group
+- [] Resource Gathering
+- [ ] Front page development
+- [ ] Sub page develpment
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Contact
+
+
+
+
+Project Link:https://github.com/Udith1998/web-coursework-21.1-/edit/main/README.md 
+<p align="right">(<a href="#top">back to top</a>)</p>
   
   
     
