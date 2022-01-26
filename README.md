@@ -1,6 +1,6 @@
 <div id="top"></div>
 <h1 align="center">Web-Coursework-21.1</h1>
-<p align="center"> Developing a website by related to one of the sustainable development goal </p>
+<p align="center"> Developing a website by related to one of the sustainable development goals </p>
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -17,7 +17,7 @@
 
 
 ## About The Project
-Creating a website for reach their targets with the help of sustainability concept
+Creating a website to reach their targets with the help of sustainability concept
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
