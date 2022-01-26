@@ -41,6 +41,7 @@ Creating a website to reach their targets with the help of sustainability concep
 ## Contact
 Chathuranga Rathnayaka : https://github.com/Udith1998
 
+M.A.G.H.P. Mallawaarachchi : https://github.com/MAGHPMallawaarachchi
 
 T.G.M. Seneka : https://github.com/tgmseneka
 
