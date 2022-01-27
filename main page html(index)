@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <title>Home</title>
+  </head>
+   <div class="main-container nav-bg-color">
+      <div class="inside-container nav-contain">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <img src="image/Logo 4.jpg" class="img-fluid" alt="">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-list ml-auto">
+	            <a class="menu" href="index.html">HOME</a>
+	            <a class="menu" href="#">ABOUT US</a>
+	            <a class="menu" href="services.html">NEWS AND STORIES</a>
+	            <a class="menu" href="#">REPORTS AND RESEARCH</a>
+	            <a class="menu" href="blog.html">BLOG</a>
+	            <a class="menu" href="blog-single.html">ISSUES AND SOLUTIONS</a>
+      <span class="menu last-spc color-line"> | </span>
+	             <a class="menu icon-color last-spc" href="#"><i class="fas fa-shopping-cart"></i></a>
+	             <a class="menu icon-color  last-spc" href="#"><i class="fas fa-search"></i></a>  
+
+          </div>
+         </div>
+        </nav>
+        </div>
+     </div>
