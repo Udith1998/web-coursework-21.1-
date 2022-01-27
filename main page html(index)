@@ -32,3 +32,61 @@
         </nav>
         </div>
      </div>
+     
+     
+ <div class="main-container">
+  <div class="inside-container"> 
+    <div class="row">
+      <div class="col-12 our-header">
+          <h2> Goal 05</h2>
+          <h2>Achieve gender equality and empower all women and girls</h2>
+        <div  class="text-center">
+            <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr > 
+        </div>
+      </div> 
+    </div>
+    <div class="row row-pad">
+      <div class=" col-sm-6 col-md-3  our-spec">
+        <div class="text-center">
+            <i class="far fa-thumbs-up rounded-circle"></i>
+        </div>
+        <h3> To Stop Violence Against Women and Children</h3>
+          <p>1 in 3 Women have been subjected physical and sexual violence at least once in their life time at the age of 15 all over the world.</p>
+        <div class="rd-btn">
+           <a href="https://asiapacific.unwomen.org/en/focus-areas/end-violence-against-women/preventing-violence"> <button class="read-more"> read more</button></a>
+        </div>
+      </div>
+      <div class=" col-sm-6 col-md-3  our-spec">
+        <div class="text-center">
+          <i class="far fa-thumbs-up rounded-circle"></i>
+        </div>
+          <h3 > Women's Equal participation</h3>
+          <p>Women representation is needed when in the process of making decisions.</p>
+        <div class="rd-btn">
+          <a href="https://sdgs.un.org/goals"><button class="read-more" > read more</button></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3  our-spec">
+        <div class="text-center">
+            <i class="far fa-thumbs-up rounded-circle"></i>
+        </div>
+        <h3 > Avoid unpaid domestic and care work</h3>
+          <p>Women already spent 2.5 million as many hours as men on unpaid domestic labour work.</p>
+        <div class="rd-btn">
+         <a href="https://www.eurasia.undp.org/content/rbec/en/home/gender-equality/sustainable-development.html?utm_source=EN&utm_medium=GSR&utm_content=US_UNDP_PaidSearch_Brand_English&utm_campaign=CENTRAL&c_src=CENTRAL&c_src2=GSR&gclid=Cj0KCQiAraSPBhDuARIsAM3Js4pd7MocRQPwoTLEGpBVYdKYJ4Ce_MeEV7WYwO2O3E9b4DVb0fmyXEYaAv5kEALw_wcB"> <button class="read-more"> read more</button></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3  our-spec">
+        <div class="text-center money-back">
+          <i class="far fa-thumbs-up rounded-circle"></i>
+        </div>
+        <h3 > Say No To Child marraiges</h3>
+        <p>More than 50% of the population of developing countries are married as children.</p>
+        <div class="rd-btn">
+         <a href="https://www.snehakarma.org/our-causes/child-marriages/?gclid=Cj0KCQiAraSPBhDuARIsAM3Js4rdv8SJcOeEINICPgpEebYFx619CsFhdtFJqNLYLOwimc75FRQ2FO8aAqo3EALw_wcB"> <button class="read-more"> read more</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
