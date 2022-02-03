@@ -1,1 +1,10 @@
-
+<!DOCTYPE html>
+<html>
+    <title>Issues And Soluations</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+            function message(){
+                window.alert("You have entered the issues and solutions page under the five Sustainability Goals");
+            }
+        </script>
