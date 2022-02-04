@@ -32,7 +32,7 @@ Creating a website to reach their targets with the help of sustainability concep
 
 ## Roadmap
 - [x] Setting Up the repo for the group
-- [ ] Resource Gathering
+- [x] Resource Gathering
 - [ ] Front page development
 - [ ] Sub page develpment
 
