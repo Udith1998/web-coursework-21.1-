@@ -23,9 +23,8 @@
               position: relative;
               margin: auto;
             }
-            
-            /* Next & previous buttons */
-            .prev, .next {
+             /* Next & previous buttons */
+             .prev, .next {
               cursor: pointer;
               position: absolute;
               top: 50%;
