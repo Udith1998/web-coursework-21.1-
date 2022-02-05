@@ -78,3 +78,23 @@ i:hover {
        }
 }
 
+.connect {
+    background-color:#BED1CD;
+    min-height: 210px;
+}  
+
+.subheading {
+    margin: 70px auto;
+    color: #ececec;
+}
+
+.subheading h1 {
+    text-transform: uppercase;
+    color: #ececec;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+}
+
+
+
