@@ -96,5 +96,33 @@ i:hover {
     font-size: 32px;
 }
 
+.breadcrumb {
+    display: block!important;
+    background-color: transparent;
+}
 
+.page-linker {
+   text-align: center;
+}
 
+.page-linker a {
+   color: #ececec;
+   font-size: 13px;
+}
+
+.page-linker a:hover {
+   text-decoration: none;
+}
+
+.page-linker i {
+    font-size: 13px;
+    margin:auto 5px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "";
+}
+
+.active {
+    color: #f65aa7!important;
+}
