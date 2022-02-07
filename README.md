@@ -33,7 +33,7 @@ Creating a website to reach their targets with the help of sustainability concep
 ## Roadmap
 - [x] Setting Up the repo for the group
 - [x] Resource Gathering
-- [ ] Front page development
+- [x] Front page development
 - [ ] Sub page develpment
 
 <p align="right">(<a href="#top">back to top</a>)</p>
