@@ -131,6 +131,63 @@ margin-bottom: 30px;
         text-align: center;
     }
 }
+.bs-card{
+    color: #f65aa7!important;
+}
+@media (max-width: 991.98px) { 
+    .carousel-control-prev, 
+    .carousel-control-next {
+        display: none;
+    }
+
+}
+@media (max-width: 576px ) {
+    .carousel-inner {
+        max-height: 700px;
+    }
+    .carousel-text {
+        padding-top: 200px!important;
+    }
+    .carousel-text span{
+        font-size: 20px!important;
+
+    }
+    .carousel-text h1 {
+        font-size: 20px!important;
+    }
+}
+.carousel-text h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #000;
+}
+.carousel-text span {
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #000;
+}
+.carousel-text{
+
+    padding-top:260px;
+    text-align: center;
+}
+.carousel-text p {
+    font-family: 'Open Sans', sans-serif;
+    padding-top:40px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 3px 3px 5px #000;
+
+}
 
 .text-carousel{
     color: white;
