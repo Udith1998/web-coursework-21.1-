@@ -94,6 +94,7 @@ margin-bottom: 30px;
     color: #f65aa7!important;
     margin: 1px auto
 }
+
 @media (max-width: 1200px){
     .nav-list .menu, .menu-last{
         text-align: center;
@@ -129,4 +130,24 @@ margin-bottom: 30px;
         display: unset;
         text-align: center;
     }
+}
+
+.text-carousel{
+    color: white;
+}
+.first-slider {
+    min-height: 800px;
+    
+    background-image: url('../max-image/cover-1.jpg');
+    background-size: cover;
+}
+.first-slider-1 {
+    min-height: 800px;
+   
+    background-image: url('../max-image/cover-2.jpg');
+    background-size: cover;
+}
+
+.second-1{
+    color: #9fd7ef!important;
 }
