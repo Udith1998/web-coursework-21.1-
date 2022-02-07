@@ -82,7 +82,6 @@
             .active, .dot:hover {
               background-color: #717171;
             }
-            
             /* Fading animation */
             .fade {
               -webkit-animation-name: fade;
@@ -90,17 +89,14 @@
               animation-name: fade;
               animation-duration: 1.5s;
             }
-            
             @-webkit-keyframes fade {
               from {opacity: .4} 
               to {opacity: 1}
             }
-            
             @keyframes fade {
               from {opacity: .4} 
               to {opacity: 1}
             }
-            
             /* On smaller screens, decrease text size */
             @media only screen and (max-width: 300px) {
               .prev, .next,.text {font-size: 11px}
@@ -116,7 +112,6 @@
                 margin: 0;
                 padding: 0;
             }
-
             h2{
                 font-style: italic;
                 color: darkred;
@@ -129,5 +124,41 @@
              h4{
                  color: hsl(0, 100%, 50%);
              }
+              body {
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            width: 100%;
+            height: 100vh;
+            background :url("pexels-photo-281260.jpeg");
+            background-size: cover;
+         }
+        section .leftBox {
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        section .leftBox .content {
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            transition: .5s;
+        }
+        section .leftBox .content:hover {
+            background: #e91e63;
+        }
+        section .leftBox .content h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+        section .leftBox .content p {
+            margin: 10px 0 0;
+            padding: 0;
+        }
          </style>
         
