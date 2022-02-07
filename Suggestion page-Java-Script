@@ -1,1 +1,19 @@
-
+<html>
+    <title>Suggestions And Allegations Page</title>
+    <head>
+        <style>
+            #header{
+                width: 1350px;
+                height: 120px;
+                background-color:#E3B9B7;
+            }
+            body{
+                background-color:#bed1cd;
+            }
+        </style>
+        <script>
+        </script>
+        </head>
+        <body>
+        </body>
+        </html>
