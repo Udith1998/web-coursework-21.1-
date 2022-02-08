@@ -12,6 +12,14 @@
             }
         </style>
         <script>
+         function enlarge(){
+                document.getElementById("image1").width="600";
+                document.getElementById("image1").height="350";
+                document.getElementById("image1").border=3;
+                document.getElementById("image2").width="600";
+                document.getElementById("image2").height="350";
+                document.getElementById("image2").border=3;
+            }
         </script>
         </head>
         <body>
