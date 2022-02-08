@@ -164,3 +164,37 @@ i:hover {
     margin-left: 3px;
     margin-right: 3px;
 }
+
+.read-more {
+    background-color: #cf5db6;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;  
+    border-radius: 6px;
+    border: none;
+}
+
+.rd-btn {
+    margin: auto auto;
+    text-align: center;
+} 
+
+.read-more:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #5a0c49;
+    cursor: pointer;
+}
+
+.card {
+    background-color: rgba(252, 253, 253, 0.904);
+    height: 220px;
+    }
+
+.card:hover {
+    box-shadow: 0 0 5px 4px rgba(96, 96, 100, 0.911);
+  }
