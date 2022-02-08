@@ -160,5 +160,62 @@
             margin: 10px 0 0;
             padding: 0;
         }
+        section .Uneven access to education {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            float: right;
+            box-sizing: border-box;
+        }
+        section .Uneven access to education ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+        section Uneven access to education ul li {
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px 0;
+        }
+        section .Uneven access to education ul li .Readmore {
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%;
+            float: left;
+         }
+        section .Uneven access to education ul li .Readmore h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+        section .Uneven access to education ul li .Readmore p {
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0;
+            font-size: 16px;
+        }
+        section .Uneven access to education ul li .Readmore a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1.5px solid #262626;
+            margin-top: 8px;
+            font-size: 18px;
+            transition: .5s;
+        }
+        section .eUneven access to education ul li .Readmore a:hover {
+            background: #e91e63;
+            color: #fff;
+            border-color: #e91e63;
+        }
          </style>
         
