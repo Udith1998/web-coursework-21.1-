@@ -307,3 +307,50 @@ margin-bottom: 30px;
 .second-1{
     color: #9fd7ef!important;
 }
+.capa-bg{
+    padding-bottom: 100px;
+    background-color: #B7C68B;
+}
+.capa-head {
+    color: black;
+    padding-top: 130px; 
+}
+.capa-head .vr-line h2{
+    text-transform: uppercase;
+    font-size: 32px;  
+  
+}
+@media (max-width: 991.98px) { 
+    .capa-head {
+        text-align: center;
+    }
+    .vr-line {
+        display: block!important;
+    }
+}
+.capa{
+     font-size: 32px;
+     font-weight: bold;
+     font-family: 'Roboto Slab', serif;
+     color: #9fd7ef;
+
+ }
+.kat-icon{
+ margin: 10px;
+ margin-top: -10px;
+ }
+.Generation{
+
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: #f65aa7;
+ }
+ .vr-line{
+display: flex;
+}
+.vr-line1{
+     margin-top: 10px;
+     border-right: 1px solid white;
+    height: 55px;
+ }
