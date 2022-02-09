@@ -198,3 +198,10 @@ i:hover {
 .card:hover {
     box-shadow: 0 0 5px 4px rgba(96, 96, 100, 0.911);
   }
+
+.content hr {
+    border-color: #e0dbdb;
+    display: inline-flex;
+    width: 100%;
+ }
+
