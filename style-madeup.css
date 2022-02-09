@@ -191,6 +191,105 @@ margin-bottom: 30px;
 
 .text-carousel{
     color: white;
+    
+    .arrow{
+    font-size: 32px;
+    border: 1px solid white;
+    padding: 12px 18px;
+    font-weight: 600;
+}
+.arrow:hover{
+    color: #777777;
+    background-color: white;
+}
+.our-header h2{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+}
+.our-header hr{
+   height: 5px;
+   border-color:#c0bfbf;
+   margin-left: 15px;
+    display: inline-flex;
+    margin-right: 15px;
+    width: 65px;
+}
+.row-pad{
+    padding: 35px;
+}
+.rotate-45{
+    transform: rotate(45deg);
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+.our-header i{
+    color: #c0bfbf;
+}
+.our-header i:hover{
+    color: #c0bfbf;
+}
+.our-spec h3 {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+    max-height:19px;
+}
+.our-spec p {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Open Sans';  
+    min-height: 84px;
+}
+.our-spec i{
+    width: 115px;
+    height: 117px;
+    text-align: center;
+}
+.rounded-circle{
+    border: 1px dashed #f65aa7;
+    margin-bottom: 25px;
+    color: #f65aa7;
+    padding: 35px 0;
+    font-size: 45px;
+}
+.rounded-circle:hover{
+    background-color: #f65aa7;
+    color: #ffffff;
+}
+.money-back i {
+    padding: 35px 29px;
+}
+.read-more{
+    background-color: #cf5db6;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;  
+    border-radius: 6px;
+    border: none;
+}
+.rd-btn{
+    margin: 38px auto;
+    text-align: center;
+} 
+.read-more:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #5a0c49;
+    cursor: pointer;
+}
 }
 .first-slider {
     min-height: 800px;
