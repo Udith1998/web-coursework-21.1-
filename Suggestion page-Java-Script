@@ -28,6 +28,27 @@
                 document.getElementById("image2").height="300";
                 document.getElementById("image2").border=0;
             }
+         function validate(){
+                if(document.frm1.uname.value.length<1){
+                    alert("Name Cannot be empty");
+                    document.getElementById("f1").action="Suggestion page.html";
+                }
+                else   
+                if(document.frm1.psw.value.length<1){
+                    alert("Password Cannot be Empty");
+                    document.getElementById("f1").action="Suggestion page.html";
+                }
+                else
+                if(document.frm1.mail.value.length<1){
+                    alert("Email cannot be empty");
+                    document.getElementById("f1").action="Suggestion page.html";
+                }
+                else
+                if(document.frm1.com.value.length<1){
+                    alert("Comment should be Empty... please check it again");
+                    document.getElementById("f1").action="Suggestion page.html";
+                }
+            }
         </script>
         </head>
         <body>
