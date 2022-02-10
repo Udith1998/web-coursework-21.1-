@@ -1,1 +1,62 @@
+.main-container {
+    max-width: 1950px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color:#BED1CD;
+}
 
+.inside-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0px;
+    width: 100%;
+}
+
+.nav-bar{
+ background-color: #E3B9B7;
+}
+
+.nav-bar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.nav-bar img{
+    width: 300px;
+    text-align: left;
+}
+
+.nav-bar .menu {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-weight:10px; 
+    font-size: 15px;
+    line-height: 19px;
+    padding: 0 20px;
+    text-decoration: none;  
+    text-align: center;      
+}
+
+.nav-bar .menu:hover {
+    color: #f65aa7;
+}
+
+.color-line{
+    color: #999999!important;
+}
+
+.last-spc{
+    padding: 0 10px;
+}
+
+.icon-color {
+    color: #f65aa7!important;
+    margin: 1px auto
+}
+
+i:hover{
+    color: #f65aa7;
+    cursor: pointer;
+}
