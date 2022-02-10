@@ -52,5 +52,7 @@
         </script>
         </head>
         <body>
+            <div id="header" align="center"><marquee behavior="scroll" direction="up"><center><h1><em><u>Welcome to the Suggestions and Allegations Page...</u></em></h1></center></marquee></div>
+            <br><br><br><br>
         </body>
         </html>
