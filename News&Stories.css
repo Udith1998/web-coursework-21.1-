@@ -193,15 +193,19 @@ i:hover {
 .card {
     background-color: rgba(252, 253, 253, 0.904);
     height: 220px;
-    }
+}
 
 .card:hover {
     box-shadow: 0 0 5px 4px rgba(96, 96, 100, 0.911);
-  }
+}
 
 .content hr {
     border-color: #e0dbdb;
     display: inline-flex;
     width: 100%;
- }
+}
+
+.st-part {
+    background-color:#9bc0b7; 
+}
 
