@@ -373,3 +373,71 @@ display: flex;
 #myBtn:hover {
   background-color: #9F2B68;
 }
+.gallery-height{
+    min-height: 600px;
+
+}
+.col1-height{
+    min-height: 600px;
+    background-image: url('../max-image/b-1.jpg');
+    background-size: cover;
+    z-index: 2;
+}
+.col1-2-height{
+    min-height: 600px;
+    background-image: url('../max-image/b-2.jpg');
+    background-size: cover;
+}
+ .col2-height{
+    min-height: 300px;
+    background-image: url('../max-image/bi-5.jpg');
+    background-size: cover;
+ }
+.col2-1-height{
+    min-height: 300px;
+    background-image: url('../max-image/bi-4.jpg');
+    background-size: cover;
+      }
+.col3-height{
+    min-height: 300px;
+    background-image: url('../max-image/bi-3.jpg');
+    background-size: cover;
+          }
+.r3-height{
+     min-height: 300px;
+      background-color: #747272;
+        }
+.r3-col{
+    min-height: 300px;
+    background-color: #747272;
+}
+.r3-col-1{
+    background-image: url('../max-image/p-3.jpg');
+ background-size: cover;
+}
+.r3-col-2{
+    background-image: url('../max-image/p-4.jpg');
+ background-size: cover;
+}
+.r3-col-3{
+    background-image: url('../max-image/p-5.jpg');
+ background-size: cover;
+}
+.r3-col-4{
+    background-image: url('../max-image/p-6.jpg');
+ background-size: cover;
+}
+.padd-col{
+    margin: auto;
+}
+.padd1-col{
+    margin: auto;
+}
+.col-over:hover{
+    background-color: #f65aa7;
+    z-index: 999;
+    width: 100%;
+    height: 50%;
+    padding: 0;
+
+}
