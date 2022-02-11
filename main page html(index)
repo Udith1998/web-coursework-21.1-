@@ -263,4 +263,157 @@
 	Governments and the private sector both play important roles in attaining gender equality. We can achieve real and lasting gender equality by combining data and evidence, making tangible promises, putting words into action, and accepting accountability.</h5>
         </div>
     </div>
+    
+    <div class="main-container"> 
+  <div class="inside-container"> 
+    <div class="row"> 
+        <div class="col-12 our-header prom-padd">
+            <h2>Portfolio</h2>
+          <div class="text-center">
+              <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+          </div>
+      </div> 
+    </div>
+   </div>
+   <div class="row grid-gallery"> 
+     <div class="col-12">
+    <div class="row gallery-height">        
+      <div class="col-lg-3 col-1-height col1-height col-over gallery-item brocher">
+            <div class="col-overlay padd-col  ">
+                <div class="our-header">
+                   <p>JOIN WITH US</p>
+                           <div class="icon-overlay">
+                         <a href="#">  <i class="fas fa-compress-arrows-alt"></i></a> 
+                           <a href="#">  <i class="fas fa-link"></i> </a> 
+                           </div>
+                     <div class="text-center">
+                        <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+                     </div>
+                </div>
+             </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row ">
+              <div class=" col-lg-6  col2-height col-over gallery-item business">
+                  <div class="col-overlay padd-col ">
+                      <div class="our-header">
+                         <p>JOIN WITH US</p>
+                                 <div class="icon-overlay">
+                               <a href="#">  <i class="fas fa-compress-arrows-alt"></i></a> 
+                                 <a href="#">  <i class="fas fa-link"></i> </a> 
+                                 </div>
+                           <div class="text-center">
+                              <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+                           </div>
+                      </div>
+                   </div>
+              </div>
+              <div class=" col-lg-6 col2-1-height col-over gallery-item business"> 
+                  <div class="col-overlay  ">
+                      <div class="our-header">
+                         <p>JOIN WITH US</p>
+                                 <div class="icon-overlay">
+                               <a href="#">  <i class="fas fa-compress-arrows-alt"></i></a> 
+                                 <a href="#">  <i class="fas fa-link"></i> </a> 
+                                 </div>
+                           <div class="text-center">
+                              <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+                           </div>
+                      </div>
+                   </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-12 col3-height col-over gallery-item business" >
+                <div class="col-overlay  ">
+                   <div class="our-header">
+                      <p>JOIN WITH US</p>
+                              <div class="icon-overlay">
+                            <a href="#">  <i class="fas fa-compress-arrows-alt"></i></a> 
+                              <a href="#">  <i class="fas fa-link"></i> </a> 
+                              </div>
+                        <div class="text-center">
+                            <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+                        </div>
+                   </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-1-height col1-2-height col-over gallery-item brocher">
+            <div class="col-overlay padd-col  ">
+                <div class="our-header">
+                   <p>JOIN WITH US</p>
+                           <div class="icon-overlay">
+                         <a href="#">  <i class="fas fa-compress-arrows-alt"></i></a> 
+                           <a href="#">  <i class="fas fa-link"></i> </a> 
+                           </div>
+                     <div  class="text-center">
+                        <hr><i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+                     </div>
+                </div>
+             </div>
+        </div>
+  </div>
+<div class="row">
+  <div class=" col-lg-3 r3-col r3-col-1 col-over gallery-item postcard">
+      <div class="col-overlay  ">
+          <div class="our-header">
+             <p>JOIN WITH US</p>
+                     <div class="icon-overlay">
+                   <a href="#">  <i class="fas fa-compress-arrows-alt"></i></a> 
+                     <a href="#">  <i class="fas fa-link"></i> </a> 
+                     </div>
+               <div class="text-center">
+                  <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+               </div>
+          </div>
+       </div>
+  </div>
+  <div class=" col-lg-3 r3-col r3-col-2 col-over gallery-item postcard">
+      <div class="col-overlay  ">
+          <div class="our-header">
+             <p>JOIN WITH US</p>
+                     <div class="icon-overlay">
+                   <a href="#">  <i class="fas fa-compress-arrows-alt"></i></a> 
+                     <a href="#">  <i class="fas fa-link"></i> </a> 
+                     </div>
+               <div  class="text-center">
+                  <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+               </div>
+          </div>
+       </div>
+  </div>
+  <div class=" col-lg-3 r3-col r3-col-3 col-over gallery-item postcard">
+      <div class="col-overlay  ">
+          <div class="our-header">
+             <p>JOIN WITH US</p>
+                     <div class="icon-overlay">
+                   <a href="#">  <i class="fas fa-compress-arrows-alt"></i></a> 
+                     <a href="#">  <i class="fas fa-link"></i> </a> 
+                     </div>
+               <div  class="text-center">
+                  <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+               </div>
+          </div>
+       </div>
+  </div>
+  <div class="col-lg-3 r3-col r3-col-4 col-over gallery-item postcard">
+      <div class="col-overlay  ">
+          <div class="our-header">
+             <p>JOIN WITH US</p>
+                     <div class="icon-overlay">
+                   <a href="#">  <i class="fas fa-compress-arrows-alt"></i></a> 
+                     <a href="#">  <i class="fas fa-link"></i> </a> 
+                     </div>
+                <div  class="text-center">
+                    <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 
