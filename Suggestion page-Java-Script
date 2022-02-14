@@ -84,5 +84,7 @@
                 </table>
             </form>
         </center>
+        <img src="https://copyleaks.com/blog/wp-content/uploads/2020/12/how-to-write-a-book-1024x535.jpg" id="image1" align="right" width="527" height="300"  onmouseover="enlarge();" onmouseout="resize();">
+        <img src="http://www.incimages.com/uploaded_files/image/970x450/writing-1940x900_35498.jpg" id="image2" align="left" width="800" height="300"  onmouseover="enlarge();" onmouseout="resize();">
         </body>
         </html>
