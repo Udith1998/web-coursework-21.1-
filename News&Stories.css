@@ -232,3 +232,28 @@ i:hover {
     color: #767676;
 }
 
+.row-padd h3:hover {
+    color:rgb(68, 2, 248)
+}
+
+.col-pad {
+    padding-right: 0px;
+    text-align: right;
+}
+
+
+.col-pad-1 {
+    padding-right: 10px;
+}
+
+.col-pad a {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    color: #7a2847;
+}
+
+.col-pad-1 a {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    color: #7a2847;
+}
