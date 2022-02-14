@@ -66,5 +66,23 @@
                     <tr>
                         <td>Enter Your Password : &nbsp;&nbsp;&nbsp;</td><td><input type="password" name="psw"></td>
                     </tr>
+                    <tr>
+                        <td>Choose Your Choice</td><td><select name="choose">
+                            <option>Select Your Choice Here</option>
+                            <option>Suggestion</option>
+                            <option>Allegation</option>
+                            <option>Find More Information</option>
+                        </select></td>
+                        <tr>
+                            <td>Enter Here from Your Comment : &nbsp;&nbsp;&nbsp;</td><td><input type="text" name="com"></td>
+                        </tr>
+                        <tr> 
+                            <td><br><br><center><input type="button" value="Submit"></center></input></td>
+                            <td><br><br><center><input type="button" value="Exit"></center></input></td>
+                        </tr>
+                    </tr>
+                </table>
+            </form>
+        </center>
         </body>
         </html>
