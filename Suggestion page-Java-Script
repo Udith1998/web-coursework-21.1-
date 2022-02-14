@@ -54,5 +54,17 @@
         <body>
             <div id="header" align="center"><marquee behavior="scroll" direction="up"><center><h1><em><u>Welcome to the Suggestions and Allegations Page...</u></em></h1></center></marquee></div>
             <br><br><br><br>
+            <center>
+            <form method="post" id="f1" name="frm1" onsubmit="validate();">
+                <table>
+                    <tr>
+                        <td>Enter Your Name : &nbsp;&nbsp;&nbsp;</td><td><input type="text" name="uname"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Email Address : &nbsp;&nbsp;&nbsp;</td><td><input type="email" name="mail"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Password : &nbsp;&nbsp;&nbsp;</td><td><input type="password" name="psw"></td>
+                    </tr>
         </body>
         </html>
