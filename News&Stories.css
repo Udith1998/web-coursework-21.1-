@@ -257,3 +257,19 @@ i:hover {
     font-family: 'Roboto Slab', serif;
     color: #7a2847;
 }
+
+.col-space{
+    margin-top: 30px;
+    border-right: 1px solid #ececec;
+    margin-bottom: 30px;
+    padding-right: 20px;
+   
+}
+
+.col-space-1{
+   margin-top: 30px;
+   border-left: 1px solid #ececec;
+   margin-bottom: 30px;
+   padding-left: 20px;
+}
+
