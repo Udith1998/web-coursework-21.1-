@@ -58,23 +58,30 @@
             <form method="post" id="f1" name="frm1" onsubmit="validate();">
                 <table>
                     <tr>
-                        <td>Enter Your Name : &nbsp;&nbsp;&nbsp;</td><td><input type="text" name="uname"></td>
+                        <td>Enter Your Name : &nbsp;&nbsp;&nbsp;</td>
+                        <td><input type="text" name="uname"></td>
                     </tr>
                     <tr>
-                        <td>Enter Your Email Address : &nbsp;&nbsp;&nbsp;</td><td><input type="email" name="mail"></td>
+                        <td>Enter Your Email Address : &nbsp;&nbsp;&nbsp;</td>
+                        <td><input type="email" name="mail"></td>
                     </tr>
                     <tr>
-                        <td>Enter Your Password : &nbsp;&nbsp;&nbsp;</td><td><input type="password" name="psw"></td>
+                        <td>Enter Your Password : &nbsp;&nbsp;&nbsp;</td>
+                        <td><input type="password" name="psw"></td>
                     </tr>
                     <tr>
-                        <td>Choose Your Choice</td><td><select name="choose">
+                        <td>Choose Your Choice</td>
+                        <td>
+                        <select name="choose">
                             <option>Select Your Choice Here</option>
                             <option>Suggestion</option>
                             <option>Allegation</option>
                             <option>Find More Information</option>
-                        </select></td>
+                        </select>
+                        </td>
                         <tr>
-                            <td>Enter Here from Your Comment : &nbsp;&nbsp;&nbsp;</td><td><input type="text" name="com"></td>
+                            <td>Enter Here from Your Comment : &nbsp;&nbsp;&nbsp;</td>
+                            <td><input type="text" name="com"></td>
                         </tr>
                         <tr> 
                             <td><br><br><center><input type="button" value="Submit"></center></input></td>
