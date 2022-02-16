@@ -273,3 +273,37 @@ i:hover {
    padding-left: 20px;
 }
 
+@media (max-width: 992px) { 
+    .col-pad {
+      padding-left: 20px;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    #order-first {
+        order: 2;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .row-padd {
+        margin-left:15px; 
+        margin-right: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-pad {
+        padding-left: 0px;
+    }
+    .col-space {
+        padding-right: 15px;
+    }
+    .col-space-1 {
+        padding-left: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .col-pad-1 {
+        margin-top:20px;
+    }
+}
+
