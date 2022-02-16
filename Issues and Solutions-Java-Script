@@ -593,5 +593,21 @@ section .Poor medical care ul li .Readmore a:hover {
     color: #fff;
     border-color: #e91e63;
 }
+h3{
+    color: #080891;
+}
+section .Uneven access to education p{
+    color: #e91e63;
+}
+form.table.button{
+    background-color: cyan;
+}
+u1{
+    outline-style: double;
+}
+table{
+    background-color: rgb(16, 165, 165);
+}
+
          </style>
         
