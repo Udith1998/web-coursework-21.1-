@@ -119,6 +119,93 @@ margin-bottom: 10px;
 }
 
 
+/*middle part*/
+.connect{
+    background-color:#BED1CD;
+    min-height: 210px;
+}
+.breadcrumb{
+    display: block!important;
+    background-color: transparent;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "";
+}
+
+.active{
+    color: #f65aa7!important;
+}
+
+.subheading{
+    margin: 70px auto;
+    color: #ececec;
+}
+
+.subheading h1{
+    text-transform: uppercase;
+    color: #ececec;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+}
+
+.page-linker {
+   text-align: center;
+}
+
+.page-linker a{
+color: #ececec;
+font-size: 13px;
+}
+
+.page-linker a:hover{
+  
+    text-decoration: none;
+    }
+
+.page-linker i{
+    font-size: 13px;
+    margin:auto 5px;
+}
+.heading h2{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 40px;
+}
+
+If we use ‘’read more’’ button
+.read-more{
+    background-color: #cf5db6;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;  
+    border-radius: 6px;
+    border: none;
+}
+.rd-btn{
+    margin: auto auto;
+    text-align: center;
+} 
+
+.read-more:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #5a0c49;
+    cursor: pointer;
+}
+
+
+
+
 /*TOP Button*/
  #myBtn {
   display: none;
