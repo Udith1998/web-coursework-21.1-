@@ -300,7 +300,7 @@ margin-bottom: 30px;
 .first-slider-1 {
     min-height: 800px;
    
-    background-image: url('../max-image/cover-2.jpg');
+    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/cover-2.jpg?token=GHSAT0AAAAAABQJ626PD4XXSHO6IVUAGRSOYQXKY7Q');
     background-size: cover;
 }
 
@@ -379,28 +379,28 @@ display: flex;
 }
 .col1-height{
     min-height: 600px;
-    background-image: url('../max-image/b-1.jpg');
+    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/b-1.jpg?token=GHSAT0AAAAAABQJ626OVQCOADJXRLLAIGKWYQXK5FQ');
     background-size: cover;
     z-index: 2;
 }
 .col1-2-height{
     min-height: 600px;
-    background-image: url('../max-image/b-2.jpg');
+    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/b-2.jpg?token=GHSAT0AAAAAABQJ626PP4J57XSSEYX42FFKYQXK5RQ');
     background-size: cover;
 }
  .col2-height{
     min-height: 300px;
-    background-image: url('../max-image/bi-5.jpg');
+    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/bi-5.jpg?token=GHSAT0AAAAAABQJ626P6HZPXR5DVBTELHDWYQXK6OA');
     background-size: cover;
  }
 .col2-1-height{
     min-height: 300px;
-    background-image: url('../max-image/bi-4.jpg');
+    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/bi-4.jpg?token=GHSAT0AAAAAABQJ626P5VM5OF2OSB3ZHHJWYQXK6HA');
     background-size: cover;
       }
 .col3-height{
     min-height: 300px;
-    background-image: url('../max-image/bi-3.jpg');
+    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/bi-3.jpg?token=GHSAT0AAAAAABQJ626PVI7TEG5NKL3GMZGKYQXK54A');
     background-size: cover;
           }
 .r3-height{

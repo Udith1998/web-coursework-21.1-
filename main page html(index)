@@ -34,7 +34,7 @@ function topFunction() {
    <div class="main-container nav-bg-color">
       <div class="inside-container nav-contain">
         <nav class="navbar navbar-expand-lg navbar-light ">
-          <img src="image/Logo 4.jpg" class="img-fluid" alt="">
+          <img src="https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/Logo%204.jpg?token=GHSAT0AAAAAABQJ626OSP4IG3LVSUKXBIDMYQXKRAA" class="img-fluid">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
