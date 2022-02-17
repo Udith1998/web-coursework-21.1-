@@ -20,60 +20,58 @@
 	<!-- style sheet -->
 	<link rel="stylesheet" href="reportsandresearch.css" type="text/css">
 	
-	</head>
-	<body>
-  	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-  	<script>
-
-	    //Get the button
-	    var mybutton = document.getElementById("myBtn");
-
-
-	    window.onscroll = function() {scrollFunction()};
-
-	    function scrollFunction() 
-	    {
-	      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
-	      {
-		mybutton.style.display = "block";
-	      } 
-	      else 
-	      {
-		mybutton.style.display = "none";
-	      }
-	    }
-
-	    function topFunction() 
-	    {
-	      document.body.scrollTop = 0;
-	      document.documentElement.scrollTop = 0;
-	    }
-	</script>
-		
-	<!--menu-->
-	    <div class="main-container nav-bg-color">
-	      <div class="inside-container nav-contain">
-		<nav class="navbar navbar-expand-lg navbar-light ">
-		   <img src="C:\Users\Manthi Seneka\Desktop\web coursework\logo.png" class="img-fluid" alt="">
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    <div class="navbar-nav nav-list ml-auto">
-		      <a class="menu" href="index.html">HOME</a>
-		      <a class="menu" href="contact.html">ABOUT US</a>
-		      <a class="menu" href="services.html">NEWS & STORIES</a>
-		      <a class="menu" href="blog-single.html">REPORTS & RESEARCH</a>
-		      <!-- <a class="menu" href="blog.html">BLOG</a> -->
-		      <a class="menu" href="blog-single.html">ISSUES & SOLUTIONS</a>
-		  </div>
-		 </div>
-		</nav>
-		</div>
-	     </div> 
-	
 </head>
+	
 <body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
 
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() 
+    {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+      {
+	mybutton.style.display = "block";
+      } 
+      else 
+      {
+	mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() 
+    {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
+
+<!--menu-->
+    <div class="main-container nav-bg-color">
+      <div class="inside-container nav-contain">
+	<nav class="navbar navbar-expand-lg navbar-light ">
+	   <img src="C:\Users\Manthi Seneka\Desktop\web coursework\logo.png" class="img-fluid" alt="">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav nav-list ml-auto">
+	      <a class="menu" href="index.html">HOME</a>
+	      <a class="menu" href="contact.html">ABOUT US</a>
+	      <a class="menu" href="services.html">NEWS & STORIES</a>
+	      <a class="menu" href="blog-single.html">REPORTS & RESEARCH</a>
+	      <!-- <a class="menu" href="blog.html">BLOG</a> -->
+	      <a class="menu" href="blog-single.html">ISSUES & SOLUTIONS</a>
+	  </div>
+	 </div>
+	</nav>
+	</div>
+     </div>
+	
 </body>
 </html>
