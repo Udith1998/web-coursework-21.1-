@@ -433,9 +433,9 @@ function topFunction() {
                 <p>When persons of all genders have true equality, duties, and opportunities, this is referred to as gender equality. Gender inequality has an impact on everyone, including women, men, trans and gender diverse persons, children, and families. It affects all age groups and walks of life. </p>
             </div>
             <div>
-              <i class="fab fa-facebook-f foot-icon "></i>
-              <i class="fab fa-twitter foot-icon "></i>
-              <i class="fab fa-linkedin-in foot-icon "></i>
+              <a href="https://www.facebook.com/unwomen" target="_blank"><i class="fab fa-facebook-f foot-icon "></i></a>
+              <a href="https://twitter.com/UN_Women?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter foot-icon "></i></a>
+              <a href="https://www.linkedin.com/company/un-women" target="_blank"><i class="fab fa-linkedin-in foot-icon "></i></a>
             </div>
          </div>
          <div class=" col-sm-6 col-lg-3 pop-col">
