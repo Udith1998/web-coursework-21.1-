@@ -236,6 +236,11 @@ font-size: 13px;
   background-color: #9F2B68;
 }
 
+.blog-container{ /*90px 0;*/
+    padding: 90px 0;
+    background-color: #f9f9f9;
+}
+
 /*Footer*/
 .footer-bg{
     background-color: #504E6D;
