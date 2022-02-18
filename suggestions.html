@@ -18,3 +18,50 @@
 	<link rel="stylesheet" href="suggestion.css" type="text/css">
     </head>
     <body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            function validate(){
+                if(document.frm1.uname.value.length<1){
+                    alert("Name Cannot be empty");
+                    document.getElementById("f1").action="Suggestion page.html";
+                }
+                else   
+                if(document.frm1.psw.value.length<1){
+                    alert("Password Cannot be Empty");
+                    document.getElementById("f1").action="Suggestion page.html";
+                }
+                else
+                if(document.frm1.mail.value.length<1){
+                    alert("Email cannot be empty");
+                    document.getElementById("f1").action="Suggestion page.html";
+                }
+                else
+                if(document.frm1.com.value.length<1){
+                    alert("Comment should be Empty... please check it again");
+                    document.getElementById("f1").action="Suggestion page.html";
+                }
+            }
+           //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() 
+    {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+                {
+                    mybutton.style.display = "block";
+                } 
+                     else 
+                {
+                     mybutton.style.display = "none";
+                }
+    }
+
+        function topFunction() 
+                {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+        </script>
