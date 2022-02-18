@@ -13,6 +13,26 @@
     width: 100%;
 }
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:#E30B5C;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+#myBtn:hover {
+    background-color: #9F2B68;
+}
+
 .nav-bg-color {
     background-color: #E3B9B7;
 }
@@ -39,42 +59,23 @@
 .nav-list .menu:hover {
        color: #f65aa7;
 }
-   
-.color-line {
-       color: #999999!important;
-}
-   
-.last-spc {
-       padding: 0 10px;
-}
-   
-.icon-color {
-       color: #f65aa7!important;
-       margin: 1px auto
-}
-   
+  
 i:hover {
        color: #f65aa7;
        cursor: pointer;
 }
    
 @media (max-width: 1200px) {
-       .nav-list .menu, .menu-last {
+       .nav-list .menu {
            text-align: center;
            padding: 0px 16px;
-       }
-       .last-spc {
-           padding: 0 10px!important;
        }
 }
    
 @media (max-width: 992px) {
-       .nav-list .menu, .menu-last {
+       .nav-list .menu {
            text-align: center;
            padding: 10px 10px!important;
-       }
-       .navbar-nav .color-line {
-           display: none;
        }
 }
 
@@ -192,11 +193,32 @@ i:hover {
 
 .card {
     background-color: rgba(252, 253, 253, 0.904);
-    height: 220px;
+    height: 372px;
 }
 
 .card:hover {
     box-shadow: 0 0 5px 4px rgba(96, 96, 100, 0.911);
+}
+
+.Images img {
+    width: 100%;
+    height:150px;
+    padding: 0px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.Images {
+    background-color: rgb(250, 246, 246);
+    width: 100%;
+    height: 150px;
+    padding: 0px;
+}
+
+.Images img:hover {
+    opacity: 0.3;
 }
 
 .content hr {
@@ -236,11 +258,20 @@ i:hover {
     color:rgb(68, 2, 248)
 }
 
+.Image img {
+    width: 150px;
+    height: 130px;
+    border-radius: 14%;
+}
+
+.Image img:hover {
+    box-shadow: 0 0 8px 7px rgba(65, 63, 63, 0.966);
+}
+
 .col-pad {
     padding-right: 0px;
     text-align: right;
 }
-
 
 .col-pad-1 {
     padding-right: 10px;
@@ -263,10 +294,9 @@ i:hover {
     border-right: 1px solid #ececec;
     margin-bottom: 30px;
     padding-right: 20px;
-   
 }
 
-.col-space-1{
+.col-space-1 {
    margin-top: 30px;
    border-left: 1px solid #ececec;
    margin-bottom: 30px;
