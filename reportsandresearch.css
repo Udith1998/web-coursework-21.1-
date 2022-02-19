@@ -190,31 +190,6 @@ font-size: 13px;
     margin-top: 40px;
 }
 
-If we use ‘’read more’’ button
-.read-more{
-    background-color: #cf5db6;
-    text-transform: uppercase;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;  
-    border-radius: 6px;
-    border: none;
-}
-.rd-btn{
-    margin: auto auto;
-    text-align: center;
-} 
-
-.read-more:hover{
-    text-decoration: none;
-    color: white;
-    background-color: #5a0c49;
-    cursor: pointer;
-}
-
 /*TOP Button*/
  #myBtn {
   display: none;
