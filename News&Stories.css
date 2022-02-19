@@ -7,7 +7,7 @@
 }
 
 .inside-container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 15px;
     width: 100%;
@@ -197,7 +197,7 @@ i:hover {
 }
 
 .card:hover {
-    box-shadow: 0 0 5px 4px rgba(96, 96, 100, 0.911);
+    box-shadow: 0 0 6px 5px rgba(100, 100, 102, 0.911);
 }
 
 .Images img {
