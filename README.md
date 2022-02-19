@@ -49,7 +49,7 @@ N.W.H.S. Abeysekera : https://github.com/nwhsabeysekera
 
 M.K.P.N Joanne  :  https://github.com/MKPNJoanne
 
-Project Link:https://github.com/Udith1998/web-coursework-21.1-/edit/main/README.md 
+Project Link:https://github.com/Udith1998/web-coursework-21.1-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
