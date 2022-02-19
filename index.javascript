@@ -60,4 +60,72 @@ $('.scren-owl').owlCarousel({
 
 })
 
+  $('.owl-testimonial').owlCarousel({
+  loop:true,
+  autoplay:true,
+    autoplayTimeout:7000,
+  margin:10,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:false,
+          dots:false
+      },
+      600:{
+          items:2,
+          nav:false,
+          dots:false
+      },
+      1400:{
+          items:2,
+          nav:true,
+          loop:true,
+      }
+  }
+})
+
+
+$('.owl-partner').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:6000,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+            dots:false
+        },
+        600:{
+            items:2,
+            nav:false,
+            dots:false
+        },
+        1000:{
+            items:4,
+            nav:false,
+            dots:false,
+            loop:true
+        },
+        1400:{
+            items:4,
+            nav:true,
+            dots:false,
+            loop:true
+        }
+    }
+  })
+  $( ".owl-prev").html('<i class="fas fa-arrow-left"></i>');
+  $( ".owl-next").html('<i class="fas fa-arrow-right"></i>');
   
+  $(document).ready(function(){
+    $grid = $('.grid-gallery').isotope({
+      // options
+      itemSelector: '.gallery-item',
+      layoutMode: 'masonry',
+      masonry: {
+        gutter: 0
+      }
+    });
