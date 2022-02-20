@@ -1,3 +1,4 @@
+/*Header*/
 .main-container {
     max-width: 1950px;
     width: 100%;
@@ -11,59 +12,16 @@
     padding: 0 15px;
     width: 100%;
 }
-.row-spc{
-    margin: 0 auto!important;
-    font-family: 'Roboto Slab', serif;
-    font-size: 18px;
-   
-}
 i:hover{
     color: #f65aa7;
     cursor: pointer;
 }
-.icon-scp{
-    font-size: 12px;
-    color: white;
-    margin: 5px 5px;
-    
-}
-.icon-scp .left-side {
-    display: flex;
-}
-.icon-scp .left-side .link-head {
-    margin: 0 5px;
-}
-.icon-scp .left-side .link-head i {
-    margin: 0 5px 0 0;
-}
-.contact-color{
-    background-color: #232323;
-    min-height: 50px;
-}
-
-.col-disp{
-    margin: 10px;
-    display: flex; 
-}
-
-.link-head{
-    color: white;
-}
-.link-head:hover{
-    text-decoration: none;
-    color: #f65aa7;
-    cursor: pointer;
-}
-
 .nav-bg-color{
-
-background-color: #E3B9B7;
-
+    background-color: #E3B9B7;
 }
 .nav-contain{
-margin-top: 10px;
-margin-bottom: 10px;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .navbar img{
     width: 250px;
@@ -80,22 +38,6 @@ margin-bottom: 10px;
 .nav-list .menu:hover {
     color: #f65aa7;
 }
-.color-line{
-    color: #999999!important;
-}
-
-.last-spc{
-    padding: 0 10px;
-}
-.carousel-height img{
-
-    max-height: 800px;
-}
-.icon-color {
-    color: #f65aa7!important;
-    margin: 1px auto
-}
-
 @media (max-width: 1200px){
     .nav-list .menu, .menu-last{
         text-align: center;
@@ -105,42 +47,67 @@ margin-bottom: 10px;
         padding: 0 10px!important;
     }
 }
-
 @media (max-width: 992px){
     .nav-list .menu, .menu-last{
         text-align: center;
         padding: 10px 10px!important;
     }
-    .navbar-nav .color-line {
+    .navbar-nav .color-line{
         display: none;
-    }   
-    
+    }    
 }
-@media (max-width: 575.98px) { 
-    .icon-scp .left-side  {
-        display: grid;
-    }
-    .icon-scp .left-side .link-head {
-        margin: 3px 0; 
-    }
-    .icon-scp .left-side  span {
-        display: none;
-     }
-      .col-disp{
-        margin: 5px;
-        display: unset;
-        text-align: center;
-    }
+
+/*TOP Button*/
+ #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:#E30B5C;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #9F2B68;
+}
+
+/*Carousel*/
+
+.text-carousel{
+    color: white;
+}
+.first-slider {
+    min-height: 800px;
+    
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/cover-1.jpg?raw=true');
+    background-size: cover;
+}
+.first-slider-1 {
+    min-height: 800px;
+   
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/cover-2.jpg?raw=true');
+    background-size: cover;
+}
+
+.second-1{
+    color: #9fd7ef!important;
 }
 .bs-card{
     color: #f65aa7!important;
 }
+
 @media (max-width: 991.98px) { 
     .carousel-control-prev, 
     .carousel-control-next {
         display: none;
     }
-
 }
 @media (max-width: 576px ) {
     .carousel-inner {
@@ -189,11 +156,7 @@ margin-bottom: 10px;
     text-shadow: 3px 3px 5px #000;
 
 }
-
-.text-carousel{
-    color: white;
-    
-    .arrow{
+.arrow{
     font-size: 32px;
     border: 1px solid white;
     padding: 12px 18px;
@@ -203,6 +166,8 @@ margin-bottom: 10px;
     color: #777777;
     background-color: white;
 }
+
+/*sub heading*/
 .our-header h2{
     text-transform: uppercase;
     text-decoration: none;
@@ -210,31 +175,30 @@ margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
     font-family: 'Roboto Slab', serif;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .our-header hr{
-   height: 5px;
-   border-color:#c0bfbf;
-   margin-left: 15px;
+    height: 5px;
+    border-color:#f65aa7;
+    margin-left: 15px;
     display: inline-flex;
     margin-right: 15px;
     width: 65px;
-}
-.row-pad{
-    padding: 35px;
+    margin-top: 10px;
 }
 .rotate-45{
     transform: rotate(45deg);
     margin-right: -5px;
     margin-left: -5px;
-    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 .our-header i{
-    color: #c0bfbf;
+    color: #f65aa7;
 }
-.our-header i:hover{
-    color: #c0bfbf;
-}
+
+
+/*Thumbs up section*/
 .our-spec h3 {
     font-size: 16px;
     text-align: center;
@@ -249,6 +213,7 @@ margin-bottom: 10px;
     text-align: center;
     font-family: 'Open Sans';  
     min-height: 84px;
+    margin-bottom: 0;
 }
 .our-spec i{
     width: 115px;
@@ -266,9 +231,6 @@ margin-bottom: 10px;
     background-color: #f65aa7;
     color: #ffffff;
 }
-.money-back i {
-    padding: 35px 29px;
-}
 .read-more{
     background-color: #cf5db6;
     text-transform: uppercase;
@@ -282,7 +244,7 @@ margin-bottom: 10px;
     border: none;
 }
 .rd-btn{
-    margin: 38px auto;
+    margin-bottom: 70px;
     text-align: center;
 } 
 .read-more:hover{
@@ -291,142 +253,104 @@ margin-bottom: 10px;
     background-color: #5a0c49;
     cursor: pointer;
 }
-}
-.first-slider {
-    min-height: 800px;
-    
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/cover-1.jpg?token=GHSAT0AAAAAABQJ626OIV7DQHX4ZOZBIV7OYQ3B6EQ');
-    background-size: cover;
-}
-.first-slider-1 {
-    min-height: 800px;
-   
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/cover-2.jpg?token=GHSAT0AAAAAABQJ626PD4XXSHO6IVUAGRSOYQXKY7Q');
-    background-size: cover;
-}
 
-.second-1{
-    color: #9fd7ef!important;
-}
-.capa-bg{
-
+/*Description*/
+.des-bg{
     background-color: #B7C68B;
 }
-.capa-head {
+.des-head {
     color: black;
-    padding-top: 130px; 
+    padding-top: 70px;
+    padding-bottom: 60px; 
 }
-.capa-head .vr-line h2{
+.des-head .vr-line h2{
     text-transform: uppercase;
     font-size: 32px;  
   
 }
 @media (max-width: 991.98px) { 
-    .capa-head {
+    .des-head {
         text-align: center;
     }
     .vr-line {
         display: block!important;
     }
 }
-.capa{
-     font-size: 32px;
-     font-weight: bold;
-     font-family: 'Roboto Slab', serif;
-     color: #9fd7ef;
-
- }
 .kat-icon{
- margin: 10px;
- margin-top: -10px;
+    margin: 10px;
+    margin-top: -10px;
  }
 .Generation{
-
     font-size: 32px;
     font-weight: bold;
     font-family: 'Roboto Slab', serif;
     color: #f65aa7;
  }
  .vr-line{
-display: flex;
+    display: flex;
 }
 .vr-line1{
-     margin-top: 10px;
-     border-right: 1px solid white;
-    height: 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-right: 1px solid white;
+    height: 370px;
  }
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color:#E30B5C;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
 
-#myBtn:hover {
-  background-color: #9F2B68;
-}
+/*Portfolio*/
+
 .gallery-height{
+    margin-top: 30px;
     min-height: 600px;
-
 }
 .col1-height{
     min-height: 600px;
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/b-1.jpg?token=GHSAT0AAAAAABQJ626OVQCOADJXRLLAIGKWYQXK5FQ');
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/b-1.jpg?raw=true');
     background-size: cover;
     z-index: 2;
 }
 .col1-2-height{
     min-height: 600px;
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/b-2.jpg?token=GHSAT0AAAAAABQJ626PP4J57XSSEYX42FFKYQXK5RQ');
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/b-2.jpg?raw=true');
     background-size: cover;
 }
  .col2-height{
     min-height: 300px;
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/bi-5.jpg?token=GHSAT0AAAAAABQJ626P6HZPXR5DVBTELHDWYQXK6OA');
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/bi-5.jpg?raw=true');
     background-size: cover;
  }
 .col2-1-height{
     min-height: 300px;
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/bi-4.jpg?token=GHSAT0AAAAAABQJ626P5VM5OF2OSB3ZHHJWYQXK6HA');
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/bi-4.jpg?raw=true');
     background-size: cover;
       }
 .col3-height{
-    min-height: 300px;
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/bi-3.jpg?token=GHSAT0AAAAAABQJ626PVI7TEG5NKL3GMZGKYQXK54A');
+    min-height: 350px;
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/bi-3.jpg?raw=true');
     background-size: cover;
           }
 .r3-height{
-     min-height: 300px;
-      background-color: #747272;
+    min-height: 300px;
+    background-color: #747272;
         }
 .r3-col{
     min-height: 300px;
     background-color: #747272;
 }
 .r3-col-1{
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/p-3.jpg?token=GHSAT0AAAAAABQJ626P77VU6SJ2LGONJGU2YQXK7CA');
- background-size: cover;
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/p-3.jpg?raw=true');
+    background-size: cover;
 }
 .r3-col-2{
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/p-4.jpg?token=GHSAT0AAAAAABQJ626OPOAKJ3NC64BBJO5SYQXK7KQ');
- background-size: cover;
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/p-4.jpg?raw=true');
+    background-size: cover;
 }
 .r3-col-3{
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/p-5.jpg?token=GHSAT0AAAAAABQJ626P77GBSSMZDOI4QOD2YQXK7SA');
- background-size: cover;
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/p-5.jpg?raw=true');
+    background-size: cover;
 }
 .r3-col-4{
-    background-image: url('https://raw.githubusercontent.com/Udith1998/web-coursework-21.1-/main/images/p-6.jpg?token=GHSAT0AAAAAABQJ626OBIAVYG4CXXQOMT52YQXK73Q');
- background-size: cover;
+    background-image: url('https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/p-6.jpg?raw=true');
+    background-size: cover;
 }
 .padd-col{
     margin: auto;
@@ -434,13 +358,10 @@ display: flex;
 .padd1-col{
     margin: auto;
 }
-.col-over:hover{
-    background-color: #f65aa7;
-    z-index: 999;
-    width: 100%;
-    height: 50%;
-    padding: 0;
-}
+
+
+
+/*Footer*/
 .footer-bg{
     background-color: #504E6D;
     color: #f9f9f9;
@@ -449,9 +370,7 @@ display: flex;
     padding: 75px 0;
 }
 .foot-logo{
-    max-width: 300px;
-    max-height: 300px;
-    margin-bottom: 10px;
+    max-width: 200px;
 }
 .foot-col-padd{
     padding: 0 20px;
@@ -501,7 +420,7 @@ display: flex;
 .ltl-blog{
     display: inline-flex;
 }
-.blog-img{
+.news-img{
     width: 75px;
     max-height: 75px;
 }
@@ -523,7 +442,7 @@ margin: 0 5px;
     border: 0.5px solid  #777777!important;
     width: 95%!important;
 }
-.view-blog{
+.view-news{
     text-decoration: underline;
     text-transform: uppercase;
     font-size: 13px;
@@ -531,7 +450,7 @@ margin: 0 5px;
     color: #9fd7ef;
     font-weight: bold;
 }
-.view-blog:hover{
+.view-news:hover{
     color: #9fd7ef;
    
 }
@@ -550,4 +469,3 @@ margin: 0 5px;
 .contact-row-margin p{
     margin: auto 0;
 }
-
