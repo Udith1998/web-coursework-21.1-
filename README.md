@@ -34,7 +34,7 @@ Creating a website to reach their targets with the help of sustainability concep
 - [x] Setting Up the repo for the group
 - [x] Resource Gathering
 - [x] Front page development
-- [x] Sub page develpment
+- [] Sub page develpment
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
