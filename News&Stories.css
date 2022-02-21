@@ -157,7 +157,7 @@ i:hover {
 }
 
 .content p {
-    color: #777777;
+    color: #353333;
     font-size: 13.5px;
     text-align: left;
     font-family: 'Open Sans';  
@@ -167,7 +167,7 @@ i:hover {
 }
 
 .read-more {
-    background-color: #cf5db6;
+    background-color: #4b2643;
     text-transform: uppercase;
     padding: 10px 20px;
     text-decoration: none;
@@ -187,17 +187,17 @@ i:hover {
 .read-more:hover {
     text-decoration: none;
     color: white;
-    background-color: #5a0c49;
+    background-color: #271127;
     cursor: pointer;
 }
 
 .card {
-    background-color: rgba(252, 253, 253, 0.904);
+    background-color: rgba(161, 163, 163, 0.904);
     height: 372px;
 }
 
 .card:hover {
-    box-shadow: 0 0 6px 5px rgba(100, 100, 102, 0.911);
+    box-shadow: 0 0 7px 6px rgba(66, 66, 66, 0.911);
 }
 
 .Images img {
@@ -251,7 +251,7 @@ i:hover {
 .row-padd p {
     font-size: 14px;
     font-family: 'Open Sans';
-    color: #767676;
+    color: #585858;
 }
 
 .row-padd h3:hover {
@@ -281,12 +281,14 @@ i:hover {
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
     color: #7a2847;
+    font-weight: bold;
 }
 
 .col-pad-1 a {
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
     color: #7a2847;
+    font-weight: bold;
 }
 
 .col-space{
