@@ -245,7 +245,7 @@ i:hover {
     text-align: center;
     font-family: 'Roboto Slab', serif;
     margin-bottom: 0;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .our-header2 hr {
@@ -260,12 +260,6 @@ i:hover {
 
 .our-header2 i {
     color: #f65aa7;
-}
-
-.content hr {
-    border-color: #e0dbdb;
-    display: inline-flex;
-    width: 100%;
 }
 
 .big-row {
