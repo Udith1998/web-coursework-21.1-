@@ -228,7 +228,7 @@ a:hover {
 }
 
 .card:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    box-shadow: 0 0 11px 4px rgba(33,33,33,.2);
 }
 
 .Images img {
@@ -249,7 +249,7 @@ a:hover {
 }
 
 .Images img:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .our-header2 h2 {
@@ -314,7 +314,7 @@ a:hover {
 }
 
 .Image img:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    box-shadow: 5px 5px 4px 4px rgba(33,33,33,.2);
 }
 
 .col-pad {
