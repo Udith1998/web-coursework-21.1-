@@ -206,7 +206,7 @@ i:hover{
 .blog-description p{
      color: black;
      font-size: 16px;
-     font-family:'Open Sans';
+     font-family: 'Open Sans';
      text-align: justify;
      padding-top: 10px;
 }
@@ -215,12 +215,10 @@ i:hover{
     color: #cf5db6;
     margin-left: 30px;
     margin-top: 5px;
-    font-family:'Open Sans';
 }
 
 .blog-description li{
     color: #cf5db6;
-    font-family:'Open Sans';
 }
 
 .blog-description span{
