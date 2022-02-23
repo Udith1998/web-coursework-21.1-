@@ -200,7 +200,28 @@ i:hover{
     font-family: 'Roboto Slab', serif;
     font-size: 23px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
+}
+
+.blog-header hr {
+    height: 5px;
+    border-color:#f65aa7;
+    margin-left: 15px;
+    display: inline-flex;
+    margin-right: 15px;
+    width: 65px;
+    margin-top: 10px;
+}
+
+.blog-header .rotate-45 {
+    transform: rotate(45deg);
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+
+.blog-header i {
+    color: #f65aa7;
 }
 
 .blog-description p{
@@ -219,13 +240,11 @@ i:hover{
 }
 
 .blog-description li{
-    color: #cf5db6;
-    font-family: 'Open sans'; 
+    color: #cf5db6; 
 }
 
 .blog-description span{
     color: black;
-    font-family: 'Open sans'; 
 }
 
 .blog-description i{
