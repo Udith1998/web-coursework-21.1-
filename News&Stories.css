@@ -164,6 +164,14 @@ i:hover {
     padding: 35px;
 }
 
+.con-space {
+    margin-top: 15px;
+}
+
+.con-space-1 {
+    margin-top: 35px;
+}
+
 .content h3 {
     font-size: 15px;
     text-align:  left;
