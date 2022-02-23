@@ -187,12 +187,12 @@ i:hover {
     text-align: center;
 }
 
-a {
+.rd-btn a {
     color: #f65aa7;
    font-weight: bold;
 }
 
-a:hover {
+.rd-btn a:hover {
     color: #f65aa7;
 }
 
