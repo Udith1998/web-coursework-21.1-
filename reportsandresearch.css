@@ -206,7 +206,7 @@ i:hover{
 .blog-description p{
      color: black;
      font-size: 16px;
-     font-family: 'Open Sans';
+     font-family: 'Roboto Slab','Open Sans';
      text-align: justify;
      padding-top: 10px;
 }
