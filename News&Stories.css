@@ -295,7 +295,7 @@ a:hover {
 }
 
 .Image img:hover {
-    box-shadow: 5px 5px 3px 3px rgba(107, 107, 107, 0.911);
+     box-shadow: 5px 5px 3px 3px rgba(107, 107, 107, 0.911);
 }
 
 .col-pad {
