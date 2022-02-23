@@ -128,7 +128,7 @@ i:hover {
     color: #f65aa7!important;
 }
 
-.heading h2 {
+.our-header h2 {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 32px;
@@ -136,6 +136,28 @@ i:hover {
     text-align: center;
     font-family: 'Roboto Slab', serif;
     margin-top: 40px;
+}
+
+.our-header hr {
+    height: 5px;
+    border-color:#f65aa7;
+    margin-left: 15px;
+    display: inline-flex;
+    margin-right: 15px;
+    width: 65px;
+    margin-top: 10px;
+}
+
+.rotate-45 {
+    transform: rotate(45deg);
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.our-header i {
+    color: #f65aa7;
 }
 
 .row-pad {
@@ -150,24 +172,31 @@ i:hover {
     margin-bottom: 10px;
     margin-left: 3px;
     margin-right: 3px;
-}
-
-.content h3:hover {
-    color:rgb(68, 2, 248)
+    text-align: center;
+    padding: 10px;
 }
 
 .content p {
-    color: #353333;
+    color: #777777;
     font-size: 13.5px;
     text-align: left;
     font-family: 'Open Sans';  
     min-height: 10px;
     margin-left: 3px;
     margin-right: 3px;
+    text-align: center;
+}
+
+a {
+    color: #f65aa7;
+}
+
+a:hover {
+    color: #f65aa7;
 }
 
 .read-more {
-    background-color: #4b2643;
+    background-color: #cf5db6;
     text-transform: uppercase;
     padding: 10px 20px;
     text-decoration: none;
@@ -187,17 +216,19 @@ i:hover {
 .read-more:hover {
     text-decoration: none;
     color: white;
-    background-color: #271127;
+    background-color: #5a0c49;
     cursor: pointer;
 }
 
 .card {
-    background-color: rgba(161, 163, 163, 0.904);
+    background-color: rgba(252, 253, 253, 0.904);
     height: 372px;
+    transition: box-shadow .3s;
+    padding: 10px;
 }
 
 .card:hover {
-    box-shadow: 0 0 7px 6px rgba(66, 66, 66, 0.911);
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 .Images img {
@@ -218,17 +249,38 @@ i:hover {
 }
 
 .Images img:hover {
-    opacity: 0.3;
+    opacity: 0.8;
+}
+
+.our-header2 h2 {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.our-header2 hr {
+    height: 5px;
+    border-color:#f65aa7;
+    margin-left: 15px;
+    display: inline-flex;
+    margin-right: 15px;
+    width: 25px;
+    margin-top: 10px;
+}
+
+.our-header2 i {
+    color: #f65aa7;
 }
 
 .content hr {
     border-color: #e0dbdb;
     display: inline-flex;
     width: 100%;
-}
-
-.st-part {
-    background-color:#9bc0b7; 
 }
 
 .big-row {
@@ -251,21 +303,18 @@ i:hover {
 .row-padd p {
     font-size: 14px;
     font-family: 'Open Sans';
-    color: #585858;
-}
-
-.row-padd h3:hover {
-    color:rgb(68, 2, 248)
+    color: #767676;
 }
 
 .Image img {
     width: 150px;
     height: 130px;
     border-radius: 14%;
+    transition: box-shadow .3s;
 }
 
 .Image img:hover {
-    box-shadow: 0 0 8px 7px rgba(65, 63, 63, 0.966);
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 .col-pad {
@@ -280,15 +329,13 @@ i:hover {
 .col-pad a {
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
-    color: #7a2847;
-    font-weight: bold;
+    color: #f65aa7;
 }
 
 .col-pad-1 a {
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
-    color: #7a2847;
-    font-weight: bold;
+    color: #f65aa7;
 }
 
 .col-space{
@@ -421,8 +468,8 @@ i:hover {
 }
 
 .blog-vl {
-color: #777777;
-margin: 0 5px;
+   color: #777777;
+   margin: 0 5px;
 }
 
 .blog-icon {
@@ -447,8 +494,7 @@ margin: 0 5px;
 
 .view-news:hover {
     color: #9fd7ef;
-   
-}
+ }
 
 .contact-icon {
     border: 1px solid #9fd7ef;
