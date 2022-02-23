@@ -203,7 +203,7 @@ i:hover {
 
 .card {
     background-color: rgba(252, 253, 253, 0.904);
-    height: 430px;
+    height: 372px;
     transition: box-shadow .3s;
     padding: 10px;
 }
