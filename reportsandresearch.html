@@ -23,313 +23,324 @@
 </head>
 	
 <body>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-	
-<script>
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-
-
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() 
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<script>
+    //validation
+    function validateForm() 
     {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+      if(document.myForm.Name.value=="") 
       {
-	mybutton.style.display = "block";
-      } 
-      else 
-      {
-	mybutton.style.display = "none";
-      }
-    }
+            alert("Please provide your name!");
+            document.myForm.Name.focus();
+            return false;
+        }
 
-    function topFunction() 
-    {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-</script>
+        if(document.myForm.Email.value=="") 
+        {
+            alert( "Please provide your email!");
+            document.myForm.Email.focus();
+            return false;
+        }
 
-<!--menu-->
-    <div class="main-container nav-bg-color">
-      <div class="inside-container nav-contain">
-	<nav class="navbar navbar-expand-lg navbar-light ">
-	  <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/logo.png?raw=true" class="img-fluid" alt="">
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	   <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    <div class="navbar-nav nav-list ml-auto">
-              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/index.html">HOME</a>
-              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/aboutus.html">ABOUT US</a>
-              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/News&Stories.html">NEWS & STORIES</a>
-              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/reportsandresearch.html">REPORTS & RESEARCH</a>
-              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/issues&solutions.html">ISSUES & SOLUTIONS</a>
-              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/contactus.html">CONTACT US</a>
+        if(document.myForm.Comment.value=="") 
+        {
+            alert( "Please type your comment!");
+            document.myForm.Comment.focus();
+            return false;
+        }
+    	}
+
+	    //Get the button
+	    var mybutton = document.getElementById("myBtn");
+
+
+	    window.onscroll = function() {scrollFunction()};
+
+	    function scrollFunction() 
+	    {
+	      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+	      {
+		mybutton.style.display = "block";
+	      } 
+	      else 
+	      {
+		mybutton.style.display = "none";
+	      }
+	    }
+
+	    function topFunction() 
+	    {
+	      document.body.scrollTop = 0;
+	      document.documentElement.scrollTop = 0;
+	    }
+	</script>
+
+	<!--menu-->
+	    <div class="main-container nav-bg-color">
+	      <div class="inside-container nav-contain">
+		<nav class="navbar navbar-expand-lg navbar-light ">
+		  <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/logo.png?raw=true" class="img-fluid" alt="">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		   <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav nav-list ml-auto">
+	              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/index.html">HOME</a>
+	              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/aboutus.html">ABOUT US</a>
+	              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/News&Stories.html">NEWS & STORIES</a>
+	              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/reportsandresearch.html">REPORTS & RESEARCH</a>
+	              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/issues&solutions.html">ISSUES & SOLUTIONS</a>
+	              <a class="menu" href="https://udith1998.github.io/web-coursework-21.1-/contactus.html">CONTACT US</a>
+		    </div>
+		   </div>
+		 </nav>
+		</div>
+	     </div>
+
+	<!--Add subheading-->
+	    <div class="main-container connect">
+	      <div class="inside-container">
+	        <div class="row">
+	         <div class="col-12 subheading">
+	          <h1 class="text-center">Reports & Research</h1>
+	          <nav class="breadcrumb page-linker">
+	           <a class="breadcrumb-item" href="https://udith1998.github.io/web-coursework-21.1-/index.html">Home <i class="fas fa-angle-right"></i></a>
+	           <span class="breadcrumb-item active">Reports & Research</span>
+	          </nav>
+	         </div>
+	        </div>
+	      </div>
 	    </div>
-	   </div>
-	 </nav>
+
+	<!--blog post-->
+	<div class="main-container">
+	  <div class="inside-container">
+	  	<div class="blog-container">
+		   	<div class="row">
+	        <div class="col-lg-12">
+		  			<div class="blog-description">
+							<h2>Research on Gender equality Is So Famous, But Why?</h2>
+	    				<hr>
+							<p> You would wonder <em>why </em> exactly should we invest time and resources in this kind of research.
+							<br>Now, that's a very-much valid question. Are you not sure about the answer? Don't worry, we've got you covered. We will get to that after we talk about the term <b>discrimination</b>; so keep reading! 
+							<br><br><em>Discrimination</em> is a word we seem to encounter a lot. If you're not familiar with the term, a quick <a href="https://dictionary.cambridge.org/dictionary/english/discrimination" target="_blank">google search</a> will tell you that “unfairness” is a similar, more simple term. To be honest, all of us yearn for an equal state, opportunities, and rights regardless of our age, race, gender identity, disability, or sexual orientation. <em>Discrimination</em> is what we term it when we don't meet those expectations. 
+							<br><br> 
+	    				This point forth, we will talk about what <b>we</b> wish everyone knew about Gender Based Descrimination.
+	   				 	<br><br>
+	    				"Gender Inequality" is an issue that affects people across the globe. One would assume that as a "progressed" society, we would no longer have to cope with so much discrimination, but clearly, that's not the case. Unfortunately, even in the 21st century, men and women are yet to experience equality in most cases. 
+	    				</p>	  	  
+							<div class="quotes">
+	    					<p><b>" If we invest in girls and women, the world and all of the 17 Sustainable Development Goals will advance forward rapidly as a result. "</b> <br> 
+	    					<div class="p-a">
+	    						— Ashley Judd, actor and UNFPA Goodwill Ambassador
+	    					</div>
+	    					<p><img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/blog-img-1.jpg?raw=true" class="blog-image img-fluid"></p>
+	    					<!--put alt later-->
+	    					</p>
+	    					<i class="fas fa-quote-right"></i>                                       
+	    				</div>
+
+							<p> We firmly believe that a society can progress and achieve higher development growth ONLY when both men and women enjoy equality. <br>However, take a look! 
+	    					<ul>
+								  <li><span><b>64%</b> of illiterate adults are women.That’s <b>2 out of 3.</b> </span></li><br>
+								  <li><span>Every day <b>39,000</b> girls are being into early marriage.That’s <b>26</b> girls for <b>one minute.</b></span></li><br>
+								  <li><span><b>95%</b> of the countries have a male lead head of state.</span></li><br>
+								  <li><span>More than <b>100</b> countries have laws on the books that restrict women’s participation in the economy.</span></li>
+	    					</ul>
+	    				Not so pleasant, is it?<br><br>Now, this is where we go back to our initial question. Research on Gender equality Is So Famous, But <em>Why?</em></p>
+
+	    				<!--quotation box-->
+	    				<div class="quotes">
+	    					<p> <b>“Data will tell us what to do, and if what we are doing is right. Data essentially tells us whether we are achieving the objectives and what needs to change in what we do”</b>
+	    					<div class="p-a">
+	       					— Papa Seck, Policy Specialist under Research and Data, UN Women
+	    					</div>
+	    					</p>
+	    					<p>
+	     					<iframe width="590" height="360" src="https://www.youtube.com/embed/hLVJea262CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	     					<br>
+	    					</p>                                                                           
+	    				</div>
+							<p>Subscribe to <b>UN Women Official</b> <a href="https://www.youtube.com/channel/UCXDenzwzeXM1TNtTuWj8C4A" target="_blank">YouTube</a> channel here.</p>
+	    				<p>Over the years, so much research has been done on this topic. Results and those research data are being used for various projects, campaigns, etc. We are happy to say that the change is happening. Slowly, but it's there. 
+	   					<br><br>
+	    				You've almost reached the end of this post. If you've made it this far, we appreciate you taking the time to do so. 
+	    				<br>Before you finish reading this post, would you wish to help raise awareness on Gender Equality? There’s always more than one way to help!
+	    					<ul>
+							  <li><span>If you have a few bucks to spare, you can help authorities make a change. Your donation helps provide girls and women in need with protection, relief, and hope for a better future.
+							  <br><br>Click <a href="https://donate.unwomen.org/en" target="_blank">here</a> to donate — </span></li>
+					          </ul>
+					          <b>“Gender Equality”</b> It's not just a trend on Social Media, not a one-day movement.
+					          <br>Educate yourself and your community on these matters. Stand against any sort of discrimination. No matter how small your action is, it  makes a difference. 
+					          <br><br>Let’s make this world a better place to live on. Always remember, strength has <b>no</b> gender.
+					          </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-     </div>
 
-<!--Add subheading-->
-    <div class="main-container connect">
-      <div class="inside-container">
-        <div class="row">
-         <div class="col-12 subheading">
-          <h1 class="text-center">Reports & Research</h1>
-          <nav class="breadcrumb page-linker">
-           <a class="breadcrumb-item" href="https://udith1998.github.io/web-coursework-21.1-/index.html">Home <i class="fas fa-angle-right"></i></a>
-           <span class="breadcrumb-item active">Reports & Research</span>
-          </nav>
-         </div>
-        </div>
-      </div>
-    </div>
 
-<div class="main-container blog-container">
+	<!--Article post-->
+	<div class="main-container">
+	  <div class="inside-container">
+	  	<div class="leftcolumn">
+				<div class="article-container">
+	        <span>reports and articles</span>
+	        <span class="topicline"><hr></span> 
+	        <div class=" row ltl-blog">
+	          <div class="col-4"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-1.jpg?raw=true" alt="" class="recent-img img-fluid"></div>
+	          <div class="col-8 max-award">
+	            <p>Progress of the world’s women</p>
+	            <a href="https://www.unwomen.org/en/digital-library/progress-of-the-worlds-women" target="_blank">Read More!</a>
+	          </div>
+	        </div>
+	        <hr>
+	        <div class="row ltl-blog">
+	          <div class="col-4"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-2.jpg?raw=true" alt="" class="recent-img img-fluid"></div>
+	          <div class="col-8 max-award">
+	            <p>Remove the barriers | UN Women</p>
+							<a href="https://www.unwomen.org/en/news/in-focus/csw61/remove-the-barriers" target="_blank">Read More!</a>
+	          </div>
+	        </div>
+	        <hr>
+	        <div class="  row ltl-blog">
+	          <div class="col-4"> <img src="https://i.pinimg.com/564x/1f/d8/d8/1fd8d81eee13b738b22e6bd8292d859f.jpg" alt="" class="recent-img img-fluid"></div>
+	          <div class="col-8 max-award">
+	            <p>Twenty years of gender equality research: A scoping review based on a new semantic indicator</p>
+							<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0256474" target="_blank">Read More!</a>
+	          </div>
+	        </div>
+	        <hr>
+	        <div class="  row ltl-blog">
+	          <div class="col-4"> <img src="https://i.pinimg.com/564x/1b/46/d8/1b46d829fa865adbd4752f28f9b9db17.jpg" alt="" class="recent-img img-fluid"></div>
+	          <div class="col-8 max-award">
+	            <p>Gender Equality Results Case Study: Sri Lanka - Improving Connectivity to Support Livelihoods and Gender Equality</p>
+							<a href="https://reliefweb.int/report/sri-lanka/gender-equality-results-case-study-sri-lanka-improving-connectivity-support?gclid=CjwKCAiAx8KQBhAGEiwAD3EiP2v78zOx2FVdPTojCAiyY-Rzmiyc5SCl7U2_xhF1EwcTdqREMpwvWRoC7mcQAvD_BwE" target="_blank">Read More!</a>
+	          </div>
+	        </div>
+	        <hr>
+	        <div class="  row ltl-blog">
+	          <div class="col-4"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-5.jpg?raw=true" alt="" class="recent-img img-fluid"></div>
+	          <div class="col-8 max-award">
+	            <p>Progress on the Sustainable Development Goals: The gender snapshot 2021 </p>
+							<a href="https://www.unwomen.org/en/digital-library/publications/2021/09/progress-on-the-sustainable-development-goals-the-gender-snapshot-2021" target="_blank">Read More!</a>
+	          </div>
+	        </div>
+	        <hr>
+	        <div class="  row ltl-blog">
+	          <div class="col-4"> <img src="https://www.lk.undp.org/content/dam/srilanka/img/Speeches/UNDPLKA_DRR%20CENWOR.PNG/_jcr_content/renditions/cq5dam.web.1280.1280.png" alt="" class="recent-img img-fluid"></div>
+	          <div class="col-8 max-award">
+	            <p>16th National Convention on Women's Studies - Panel discussion | UNDP in Sri Lanka</p>
+							<a href="https://www.lk.undp.org/content/srilanka/en/home/presscenter/speeches/2021/CENWOR_Panel_discussion.html" target="_blank">Read More!</a>
+	          </div>
+	        </div>
+	        <hr>
+	        <div class="  row ltl-blog">
+	          <div class="col-4"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-7.jpg?raw=true" alt="" class="recent-img img-fluid"></div>
+	          <div class="col-8 max-award">
+	            <p>Gender Equality Reports, Research and Briefings | Plan International UK</p>
+							<a href="https://plan-uk.org/policy/policy-research-and-reports/policy-resources-gender-equality" target="_blank">Read More!</a>
+	          </div>
+	        </div>
+	        <hr>
+	        <div class="  row ltl-blog">
+	          <div class="col-4"> <img src="https://www.lk.undp.org/content/dam/srilanka/img/women/UNDPLKA_WIN%2002.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="" class="recent-img img-fluid"></div>
+	          <div class="col-8 max-award">
+	            <p>A safe space for everyone | Providing safe shelters to women in Anuradhapura</p>
+							<a href="https://plan-uk.org/policy/policy-research-and-reports/policy-resources-gender-equality" target="_blank">Read More!</a>
+	          </div>
+	        </div>
+	        <hr>
+	      </div>
+	    </div>
+
+			<!--comment box-->
+			<div class="rightcolumn">
+		    <div class="comment-container">
+		      <span>Leave a comment</span>
+		      <hr>
+		      <form name="myForm" action="http://formspree.io/hasinipunsala@email.com" onsubmit="return validateForm()" method="post" method="POST">
+		        <div class="row"> 
+		         	<div class="col-sm-6"><input type="text" name="Name" placeholder="Your Name*" class="sm-input"> </div>
+		         	<div class="col-sm-6"> <input type="email" name="Email" placeholder="Your Email*"  class="sm-input"></div>
+		        </div>
+		          <input type="text" placeholder="Subject" class="sb-input">
+		          <textarea  rows="6" class="area-text" placeholder="Type Your Comment Here..."></textarea>
+		         	<div class="text-center">  <input type="submit" name="Comment" value="send comment" class="submit-btn" ></div>
+		      </form>
+		    </div>
+		  </div>
+
+		  <div class="rightcolumn">
+			  <div class="ge-poster">
+			  	<img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/geposter.jpg?raw=true" alt="no he or she just human">
+			  </div>
+			</div>
+
+		</div>
+	</div>
+
+<!--footer -->
+  <footer class="page-footer footer-bg">
   <div class="inside-container">
-	  <div class="row">
-          <div class="col-lg-12">
-	  
-	  <div class="row">
-          <div class="col-md-12 ">
-          <div class="blog-post">
-	  <div class="blog-description">
-	  
-	  <h2>Research on Gender equality Is So Famous, But Why?</h2>
+    <div class="row footer-padd">
+      <div class=" col-sm-6 col-lg-3 foot-col-padd">
+        <div class="foot-logo"><img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/footer_logo.png?raw=true" class="img-fluid"></div>
+          <div class="dream-text"> 
+              <p>When persons of all genders have true equality, duties, and opportunities, this is referred to as gender equality. Gender inequality has an impact on everyone, including women, men, children, and families. It affects all age groups and walks of life. </p>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/unwomen" target="_blank"><i class="fab fa-facebook-f foot-icon "></i></a>
+            <a href="https://twitter.com/UN_Women?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter foot-icon "></i></a>
+            <a href="https://www.linkedin.com/company/un-women" target="_blank"><i class="fab fa-linkedin-in foot-icon "></i></a>
+          </div>
+        </div>      
+        <div class=" col-sm-6 col-lg-3 pop-col">
+          <span>Popular Link</span>
           <hr>
-	  <p> You would wonder <em>why </em> exactly should we invest time and resources in this kind of research.
-	  <br>Now, that's a very-much valid question. Are you not sure about the answer? Don't worry, we've got you covered. We will get to that after we talk about the term <b>discrimination</b>; so keep reading! 
-	  <br><br><em>Discrimination</em> is a word we seem to encounter a lot. If you're not familiar with the term, a quick <a href="https://dictionary.cambridge.org/dictionary/english/discrimination" target="_blank">google search</a> will tell you that “unfairness” is a similar, more simple term. To be honest, all of us yearn for an equal state, opportunities, and rights regardless of our age, race, gender identity, disability, or sexual orientation. <em>Discrimination</em> is what we term it when we don't meet those expectations. 
-	  <br><br> 
-          This point forth, we will talk about what <b>we</b> wish everyone knew about Gender Based Descrimination.
-          <br><br>
-          "Gender Inequality" is an issue that affects people across the globe. One would assume that as a "progressed" society, we would no longer have to cope with so much discrimination, but clearly, that's not the case. Unfortunately, even in the 21st century, men and women are yet to experience equality in most cases. 
-          </p>	  
-	  
-	  <div class="quotes">
-          <p> 
-          <b>" If we invest in girls and women, the world and all of the 17 Sustainable Development Goals will advance forward rapidly as a result. "</b> 
-          <br> 
-          <div class="p-a">
-          	— Ashley Judd, actor and UNFPA Goodwill Ambassador
-          </div>
-          <p><img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/blog-img-1.jpg?raw=true" class="blog-image img-fluid"></p>
-          <!--put alt later-->
-          </p>
-          <i class="fas fa-quote-right"></i>                                       
-          </div>
-	  
-	  <p> 
-          We firmly believe that a society can progress and achieve higher development growth ONLY when both men and women enjoy equality. 
-          <br>However, take a look! 
-          <ul>
-		  <li><span><b>64%</b> of illiterate adults are women.That’s <b>2 out of 3.</b> </span></li><br>
-		  <li><span>Every day <b>39,000</b> girls are being into early marriage.That’s <b>26</b> girls for <b>one minute.</b></span></li><br>
-		  <li><span><b>95%</b> of the countries have a male lead head of state.</span></li><br>
-		  <li><span>More than <b>100</b> countries have laws on the books that restrict women’s participation in the economy.</span></li>
-          </ul>
-          Not so pleasant, is it?<br><br>
-          Now, this is where we go back to our initial question. Research on Gender equality Is So Famous, But <em>Why?</em>
-          </p>
-		  
-          <!--quotation box-->
-          <div class="quotes">
-
-          <p> 
-          <b>“Data will tell us what to do, and if what we are doing is right. Data essentially tells us whether we are achieving the objectives and what needs to change in what we do”
-          </b>
-          <div class="p-a">
-             — Papa Seck, Policy Specialist under Research and Data, UN Women
-          </div>
-          </p>
-          <p>
-           <iframe width="590" height="360" src="https://www.youtube.com/embed/hLVJea262CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-	   </iframe>
-           <br>
-          </p>                                                                           
-          </div>
-
-          <p>
-          Subscribe to <b>UN Women Official</b> <a href="https://www.youtube.com/channel/UCXDenzwzeXM1TNtTuWj8C4A" target="_blank">YouTube</a> channel here.
-          </p>
-          <p>
-          Over the years, so much research has been done on this topic. Results and those research data are being used for various projects, campaigns, etc. We are happy to say that the change is happening. Slowly, but it's there. 
-          <br><br>
-          You've almost reached the end of this post. If you've made it this far, we appreciate you taking the time to do so. 
-          <br>Before you finish reading this post, would you wish to help raise awareness on Gender Equality? There’s always more than one way to help!
-          <ul>
-		  <li><span>If you have a few bucks to spare, you can help authorities make a change. Your donation helps provide girls and women in need with protection, relief, and hope for a better future.
-		  <br><br>Click <a href="https://donate.unwomen.org/en" target="_blank">here</a> to donate — </span></li>
-          </ul>
-          <b>“Gender Equality”</b> It's not just a trend on Social Media, not a one-day movement.
-          <br>Educate yourself and your community on these matters. Stand against any sort of discrimination. No matter how small your action is, it  makes a difference. 
-          <br><br>Let’s make this world a better place to live on. Always remember, strength has <b>no</b> gender.
-          </p>
-		  
-	<div class="row blog-row-padd">
-        <div class="vl-1"></div>
-	<div class="col-md-10">
-			  
-	  <div class="blog-post research-articles">
-	  <div class="our-header text-center">
-	  <h1><span>reports and articles</span></h1>
-	  <div class="text-center">
-          <hr> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr  > 
-          </div>
-	  </div> 
-		  
-	  <!--research articles-->		  
-	  <hr>
-		  
-	  <!--article 1-->
-	  <div class="row article">
-	  <div class="col-1"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-1.jpg?raw=true" alt="" class="article-img img-fluid"></div>
-          <div class="col-8 article-link">
-          <p>Progress of the world’s women</p>
-          <a href="https://www.unwomen.org/en/digital-library/progress-of-the-worlds-women" target="_blank">Read More!</a>
-          </div>
-	  </div>
-			  
-	 <hr>
-		  
-	 <!--article 2-->
-	 <div class="row article">
-	 <div class="col-1"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-2.jpg?raw=true" alt="" class="article-img img-fluid"></div>
-	 <div class="col-8 article-link">
-	 <p>Remove the barriers | UN Women</p>
-	 <a href="https://www.unwomen.org/en/news/in-focus/csw61/remove-the-barriers" target="_blank">Read More!</a>
-	 </div>
-	 </div>
-			  
-	 <hr>
-		  
-	 <!--article 3-->
-	 <div class="row article">
-	 <div class="col-1"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-3.jpg?raw=true" alt="" class="article-img img-fluid"></div>
-	 <div class="col-8 article-link">
-	 <p>Twenty years of gender equality research: A scoping review based on a new semantic indicator</p>
-	 <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0256474" target="_blank">Read More!</a>
-	 </div>
-	 </div>
-			  
-	 <hr>
-		  
-	 <!--article 4-->
-	 <div class="row article">
-	 <div class="col-1"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-4.jpg?raw=true" alt="" class="article-img img-fluid"></div>
-	 <div class="col-8 article-link">
-         <p>Gender Equality Results Case Study: Sri Lanka - Improving Connectivity to Support Livelihoods and Gender Equality</p>
-	 <a href="https://reliefweb.int/report/sri-lanka/gender-equality-results-case-study-sri-lanka-improving-connectivity-support?gclid=CjwKCAiAx8KQBhAGEiwAD3EiP2v78zOx2FVdPTojCAiyY-Rzmiyc5SCl7U2_xhF1EwcTdqREMpwvWRoC7mcQAvD_BwE" target="_blank">Read More!</a>
-	 </div>
-         </div>
-			  
-	 <hr>
-		  
-	 <!--article 5-->
-	 <div class="row article">
-	 <div class="col-1"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-5.jpg?raw=true" alt="" class="article-img img-fluid"></div>
-	 <div class="col-8 article-link">
-	 <p>Progress on the Sustainable Development Goals: The gender snapshot 2021 </p>
-         <a href="https://www.unwomen.org/en/digital-library/publications/2021/09/progress-on-the-sustainable-development-goals-the-gender-snapshot-2021" target="_blank">Read More!</a>
-	 </div>
-	 </div>
-			  
-	 <hr>
-		  
-	 <!--article 6-->
-	 <div class="row article">
-	 <div class="col-1"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-6.png?raw=true" alt="" class="article-img img-fluid"></div>
-	 <div class="col-8 article-link">
-	 <p>16th National Convention on Women's Studies - Panel discussion | UNDP in Sri Lanka</p>
-	 <a href="https://www.lk.undp.org/content/srilanka/en/home/presscenter/speeches/2021/CENWOR_Panel_discussion.html" target="_blank">Read More!</a>
-	 </div>
-	 </div>
-
-	 <hr>
-		  
-	 <!--article 7-->
-	 <div class="row article">
-	 <div class="col-1"> <img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/research%20images/article-img-7.jpg?raw=true" alt="" class="article-img img-fluid"></div>
-	 <div class="col-8 article-link">
-	 <p>Gender Equality Reports, Research and Briefings | Plan International UK</p>
-	 <a href="https://plan-uk.org/policy/policy-research-and-reports/policy-resources-gender-equality" target="_blank">Read More!</a>
-	 </div>
-	 </div>
-
-	 <hr>
-
-	</div>
-	</div>
-	<div class="vl"></div>	  
-  	</div>
-	</div>
-	</div>
-  
-  </div>
-</div>
-  
- <!--Footer-->
- <footer class="page-footer footer-bg">
-    <div class="inside-container">
-      <div class="row footer-padd">
-        <div class=" col-sm-6 col-lg-3 foot-col-padd">
-          <div class="foot-logo"><img src="https://github.com/Udith1998/web-coursework-21.1-/blob/main/images/footer_logo.png?raw=true" class="img-fluid"></div>
-            <div class="dream-text"> 
-                <p>When persons of all genders have true equality, duties, and opportunities, this is referred to as gender equality. Gender inequality has an impact on everyone, including women, men, children, and families. It affects all age groups and walks of life. </p>
+          <div class="row">
+            <div class="col-6 pop-link">
+            <a href="https://udith1998.github.io/web-coursework-21.1-/index.html">HOME</a>
+            <a href="https://udith1998.github.io/web-coursework-21.1-/aboutus.html">ABOUT US</a> 
+            <a href="https://udith1998.github.io/web-coursework-21.1-/News&Stories.html">NEWS & STORIES</a>
+            <a href="https://udith1998.github.io/web-coursework-21.1-/reportsandresearch.html">REPORTS & RESEARCH</a>
+            <a href="https://udith1998.github.io/web-coursework-21.1-/issues&solutions.html">ISSUES & SOLUTIONS</a> 
+              </div>
             </div>
-            <div>
-              <a href="https://www.facebook.com/unwomen" target="_blank"><i class="fab fa-facebook-f foot-icon "></i></a>
-              <a href="https://twitter.com/UN_Women?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter foot-icon "></i></a>
-              <a href="https://www.linkedin.com/company/un-women" target="_blank"><i class="fab fa-linkedin-in foot-icon "></i></a>
-            </div>
-          </div>      
-          <div class=" col-sm-6 col-lg-3 pop-col">
-            <span>popular link</span>
-            <hr>
-            <div class="row">
-              <div class="col-6 pop-link">
-		      <a href="https://udith1998.github.io/web-coursework-21.1-/index.html">Home</a>
-		      <a href="https://udith1998.github.io/web-coursework-21.1-/aboutus.html">About Us</a> 
-		      <a href="https://udith1998.github.io/web-coursework-21.1-/News&Stories.html">News & Stories</a>
-		      <a href="https://udith1998.github.io/web-coursework-21.1-/issues&solutions.html">Issues & Solutions</a>
-		      <a href="https://udith1998.github.io/web-coursework-21.1-/contactus.html">Contact Us</a>  
+           </div>
+          <div class="col-sm-6  col-lg-3 pop-col">
+              <span>Recent News</span>
+             <hr>
+             <div class="row ltl-blog row-ltl-blog">
+              <div class="col-3"> <img src="https://www.unwomen.org/sites/default/files/Headquarters/Images/Sections/Digital%20Library/2021/Feminist-plan-for-sustainability-and-social-justice-cover-en.jpg"  class="news-img"></div>
+                <div class="col-9 news">
+                  <p> Beyond COVID-19: A feminist plan for sustainability <br> and social justice</p>
+                  <i class="far fa-heart blog-icon"></i> <span> 45 </span>  <span class="blog-vl"> | </span>
+                  <i class="far fa-comment blog-icon"></i><span> 34 </span>
                 </div>
-              </div>
              </div>
-            <div class="col-sm-6  col-lg-3 pop-col">
-                <span>recent news </span>
-               <hr>
-               <div class="row ltl-blog row-ltl-blog">
-                <div class="col-3"> <img src="https://www.unwomen.org/sites/default/files/Headquarters/Images/Sections/Digital%20Library/2021/Feminist-plan-for-sustainability-and-social-justice-cover-en.jpg"  class="blog-img"></div>
-                  <div class="col-9 news">
-                    <p> Beyond COVID-19: A feminist plan for sustainability <br> and social justice</p>
-                    <i class="far fa-heart blog-icon"></i> <span> 45 </span>  <span class="blog-vl"> | </span>
-                    <i class="far fa-comment blog-icon"></i><span> 34 </span>
-                  </div>
-               </div>
-               <hr class="recent-hr">
-               <div class="text-center"><a href="https://www.unwomen.org/en/digital-library/publications/2021/09/feminist-plan-for-sustainability-and-social-justice?gclid=Cj0KCQiA3rKQBhCNARIsACUEW_ZUSqG_3hNukSvQrlK6GWaXH2f4Sf0PFvQo57MEI6MRZDV8tMa9GRMaAtsxEALw_wcB" target="_blank" class="view-news">view news</a> </div>
+             <hr class="recent-hr">
+             <div class="text-center"><a href="https://www.unwomen.org/en/digital-library/publications/2021/09/feminist-plan-for-sustainability-and-social-justice?gclid=Cj0KCQiA3rKQBhCNARIsACUEW_ZUSqG_3hNukSvQrlK6GWaXH2f4Sf0PFvQo57MEI6MRZDV8tMa9GRMaAtsxEALw_wcB" target="_blank" class="view-news">view news</a> </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 pop-col ">
+              <span>contact us</span>
+              <hr>
+                <div class="row contact-row-margin"> 
+                  <a href="https://www.google.lk/maps/place/Faculty+Of+Computing/@6.820235,80.0373442,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae25276fbe9dbbb:0x226fe0b41e844be9!8m2!3d6.820229!4d80.0395326"><i class="fas fa-map-marker-alt contact-icon"></i></a>
+                  <p> NSBM Green University Town,<br>  Pitipana - Thalagala Rd,<br> Homagama.</p>
+                </div>
+                <div class="row contact-row-margin">
+                  <i class="fas fa-phone fa-rotate-90 contact-icon"></i>
+                  <p>0768658809</p>
+                </div>
+                <div class="row contact-row-margin">
+                  <i class="far fa-envelope contact-icon "> </i>
+                  <p>info@Equality.com </p>
+                </div>
             </div>
-            <div class="col-sm-6 col-lg-3 pop-col ">
-                <span>contact us</span>
-                <hr>
-                  <div class="row contact-row-margin"> 
-                    <a href="https://www.google.lk/maps/place/Faculty+Of+Computing/@6.820235,80.0373442,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae25276fbe9dbbb:0x226fe0b41e844be9!8m2!3d6.820229!4d80.0395326"><i class="fas fa-map-marker-alt contact-icon"></i></a>
-                    <p> NSBM Green University Tow,<br>  Pitipana - Thalagala Rd,<br> Homagama.</p>
-                  </div>
-                  <div class="row contact-row-margin">
-                    <i class="fas fa-phone fa-rotate-90 contact-icon"></i>
-                    <p>0768658809</p>
-                  </div>
-                  <div class="row contact-row-margin">
-                    <i class="far fa-envelope contact-icon "> </i>
-                    <p>info@Equality.com </p>
-                  </div>
-              </div>
-        </div>
+      </div>
     </footer>
 
     <!-- Optional JavaScript -->
@@ -339,7 +350,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js">  </script>
 	
 </body>
 </html>
