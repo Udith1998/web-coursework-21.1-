@@ -204,15 +204,15 @@ i:hover{
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     margin-bottom: 25px;
-    max-height:19px;
 }
+
 .our-spec p {
     color: black;
     font-size: 14px;
     text-align: center;
     font-family: 'Open Sans';  
     min-height: 84px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 .our-spec i{
     width: 115px;
