@@ -25,7 +25,6 @@ Creating a website to reach their targets with the help of sustainability concep
 * HTML
 * CSS
 * JavaScript
-* PHP
 * My sql
 
 <p align="right">(<a href="#top">back to top</a>)</p>
